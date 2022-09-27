@@ -4,3 +4,8 @@ Some usefull Algorithms and Codes to help beginners.Consists of Different Multip
 **Languages You Will Found:**<br />
 -PHP<br />
 -JAVASCRIPT<br />
+-PYTHON<br />
+-C++<br />
+-C#<br />
+-JAVA<br />
+
