@@ -2,8 +2,9 @@
 #include <vector>
 using namespace std;
 
-//function goes through list sorting adjacent values as it bubbles
-//the largest value to the top.
+//Bubble Sort
+//sorting.
+
 vector<int> bubbleSort(vector<int> avector) { //the vector for bubble sort
   for (int passnum = avector.size()-1; passnum > 0; passnum -= 1) {
       for (int i = 0; i < passnum; i++) {
@@ -19,7 +20,7 @@ vector<int> bubbleSort(vector<int> avector) { //the vector for bubble sort
 
 int main() {
     // Vector initialized using a static array
-    static const int arr[] = {54,26,93,17,77,31,44,55,20};
+    static const int arr[] = {32,16,97,27,87,38,54,95,73};
     vector<int> avector (arr, arr + sizeof(arr) / sizeof(arr[0]) );
 
     vector<int> bvector = bubbleSort(avector);
