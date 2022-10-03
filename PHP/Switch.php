@@ -1,7 +1,7 @@
 <?php
 
 //Switch statement / Logic in PHP
-//Akternate of IF statement.
+//Alternate of IF statement.
 
 
 switch ($animal ) {
