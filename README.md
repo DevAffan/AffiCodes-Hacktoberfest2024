@@ -3,8 +3,10 @@
 It is an Open Source Repo for students/young programmers who are absolute begineers in programming and want to learn it. This repository will contain Some usefull Algorithms and Codes to help beginners.Consists of Different Languages codes.
 
 **Languages You Will Found:**<br />
--PHP<br />
+-HTML<br />
+-CSS<br />
 -JAVASCRIPT<br />
+-PHP<br />
 -PYTHON<br />
 -C++<br />
 -C#<br />
