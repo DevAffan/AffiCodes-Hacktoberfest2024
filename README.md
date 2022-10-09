@@ -12,6 +12,8 @@ It is an Open Source Repo for students/young programmers who are absolute begine
 -C#<br />
 -JAVA<br />
 
+**You can also find**</br>
+-Mini Projects 
 
 # How to contribute
 1. You can contribute with Code.
