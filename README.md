@@ -12,10 +12,12 @@ It is an Open Source Repo for students/young programmers who are absolute begine
 -C#<br />
 -JAVA<br />
 
+**You can also find**</br>
+-Mini Projects 
 
 # How to contribute
 1. You can contribute with Code.
-2. Fixing isuues.
+2. Fixing issues.
 3. You can contribute in terms of usefull tips and tricks of programming or add documentations.
 
 ## Steps.
@@ -65,4 +67,4 @@ Once you have pushed your code to GitHub, it's now time to create pull request, 
 
 Soon, we will be merging all your pull requests to the main branch of project.
 
-
+**Happy Hacking**
