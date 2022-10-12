@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'digital-font';
+    src: url(./fonts/digital.ttf);
+}
+
+body {
+    background: rgb(58, 58, 58);
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fe1717;
+    font-size: 100px;
+    font-family: digital-font;
+    letter-spacing: 7px;
+    background-color: black;
+    padding: 60px;
+    border-radius: 25px;
+}
