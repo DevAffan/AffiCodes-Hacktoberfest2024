@@ -22,7 +22,7 @@ It is an Open Source Repo for students/young programmers who are absolute begine
 
 ## Steps.
 ### Step 1
-Star and Fork this repository
+Starred and Fork this repository
 ### step 2 Fork this repository
 You can fork this repository by clicking on fork button on top right corner. Once you fork this will create a copy of repo on your account
 ### step 3 Clone the repository 
