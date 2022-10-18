@@ -1,0 +1,6 @@
+Tower of Hanoi
+1. It is a classic problem where you try to move all the disks from one peg to another peg using only three pegs.
+
+2. Initially, all of the disks are stacked on top of each other with larger disks under the smaller disks.
+
+3. You may move the disks to any of three pegs as you attempt to relocate all of the disks, but you cannot place the larger disks over smaller disks and only one disk can be transferred at a time.
