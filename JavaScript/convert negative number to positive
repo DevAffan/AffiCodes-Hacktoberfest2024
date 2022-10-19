@@ -1,0 +1,11 @@
+//given negative integer
+let x = -50;
+
+//print original x
+console.log("Given negative integer x = " + x);
+
+//convert x to positive integer
+x = x * -1
+
+//print positive x
+console.log("After conversion value of x  = " + x)
