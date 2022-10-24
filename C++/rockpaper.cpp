@@ -1,4 +1,44 @@
-"Scissors" << endl;
+#include <iostream>
+
+// Constant variables
+const char ROCK = 'r';
+const char PAPER = 'p';
+const char SCISSORS = 's';
+
+using namespace std;
+
+char getComputerOption() {
+    srand(time(0));
+    // Random number
+    int num = rand() % 3 + 1;
+
+    if(num==1) return 'r';
+    if(num==2) return 'p';
+    if(num==3) return 's';
+}
+
+char getUserOption() {
+    char c;
+    cout << "Rock, Paper and Scissors Game!" << endl;
+    cout << "Choose one of the following options"  << endl;
+    cout << "-----------------------------------"  << endl;
+    cout << "(r) for rock " << endl << "(p) for paper" << endl << "(s) for scissors " << endl;
+    cin >> c;
+    
+    while (c!='r' && c!='p' && c!='s' )
+    {
+        cout << "Please enter one of the following options only. " << endl;
+        cout << "(r) for rock " << endl << "(p) for paper" << endl << "(s) for scissors " << endl;
+        cin >> c;
+    }
+
+    return c;
+}
+
+void showSelectedOption(char option) {
+    if (option == 'r') cout << "Rock" << endl;
+    if (option == 'p') cout << "Paper" << endl;
+    if (option == 's') cout << "Scissors" << endl;
 }
 
 void chooseWinner(char uChoice, char cChoice) {
