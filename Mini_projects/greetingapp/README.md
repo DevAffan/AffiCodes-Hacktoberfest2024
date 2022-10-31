@@ -1,0 +1,1 @@
+# Greeting app is a Frontend only app, powered with React.
