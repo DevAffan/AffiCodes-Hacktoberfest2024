@@ -1,6 +1,9 @@
 # AffiCodes
 .
-It is an Open Source Repo for students/young programmers who are absolute begineers in programming and want to learn it. This repository will contain Some usefull Algorithms and Codes to help beginners.Consists of Different Languages codes.
+This is an open-source repository designed for students and young programmers who are absolute beginners in programming and eager to learn. The repository includes a collection of useful algorithms and code samples aimed at assisting beginners. It covers a variety of programming languages.
+
+<br>
+**Begin your journey of contributing here**</br>
 
 **Languages You Will Found:**<br />
 -HTML<br />
