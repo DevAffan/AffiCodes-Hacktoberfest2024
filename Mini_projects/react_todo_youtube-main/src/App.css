@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;700;900&family=Urbanist:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Lexend Deca', sans-serif;*/
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+/*// thapa technical SUBSCRIBE*/
+
+html{
+    font-size: 62.5%;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 10rem;
+}
+
+main h2{
+    font-size: 3rem;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 4.8rem;
+}
+
+main h2 .icons{
+    color: #68B984;
+}
+
+/*===================*/
+/*navbar styling */
+/*====================*/
+
+nav{
+    width:55rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .1rem solid #ccc;
+}
+
+nav a{
+    font-size: 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #ccc;
+    border-bottom: .3rem solid transparent;
+}
+
+nav a:hover{
+    border-color: #3A3845;
+}
+
+nav a.active {
+    color: #000;
+    border-color: #68B984;
+}
+
+/*===================*/
+/*Form  styling */
+/*====================*/
+
+form input{
+    border: .1rem solid #ccc;
+    border-radius: .3rem;
+    width: 45rem;
+    margin: 4rem 0;
+    user-focus: none;
+    padding: .6rem 1rem;
+    font-size: 1.6rem;
+    letter-spacing: .06rem;
+    font-weight: bold;
+}
+
+form button{
+    padding: .8rem 2.8rem;
+    border: none;
+    border-radius: .3rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 2.4rem;
+     background-color: #68B984;
+     color: #fff;
+}
+
+label{
+    font-size: 1.5rem;
+    letter-spacing: .06rem;
+    color: #3A3845;
+    font-weight: bold;
+}
+
+/*===================*/
+/*todo task list */
+/*====================*/
+
+.main-task li{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    width:50rem;
+    min-height: 6rem;
+    border-bottom: .1rem solid #ccc;
+}
+
+.main-task li:first-child{
+    border-top: .1rem solid #ccc;
+}
+
+.main-task li:hover{
+    background-color: #fef2f2;
+}
+
+.main-task li input[type="checkbox"]:checked  + label {
+    text-decoration: line-through;
+    color: #D14D72;
+}
+
+.main-task li button{
+    padding: .6rem 1rem;
+    width: 7rem;
+    background-color: #D14D72;
+    color: #FFF9F9;
+    border:none;
+    display: inline-block;
+    cursor: pointer;
+    justify-self: center;
+    letter-spacing: .1rem;
+}
