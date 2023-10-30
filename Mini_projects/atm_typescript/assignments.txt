@@ -1,0 +1,50 @@
+Basic Types and Type Annotations:
+
+1- Create a TypeScript variable with an explicit type annotation for a string, and assign it a value.
+
+2- Declare a number variable and a boolean variable with type annotations, and then assign them values.
+
+3- Define an array of strings using type annotation.
+
+4- Create an object with properties "name" (string), "age" (number), and "isStudent" (boolean), and annotate its type explicitly.
+
+Type Inference:
+
+5- Declare a variable without an explicit type annotation and initialize it with a string value.
+
+6- Create an array of numbers without specifying the type explicitly.
+
+7- Define a function that takes two parameters (a string[] and a number[]), calculates their length, and returns the sum of their lengths. Observe the inferred type of the function.
+
+Functions and Interfaces in TypeScript:
+
+8- Define an interface called Person with properties "name" (string) and "age" (number). Then, create an object that conforms to this interface.
+
+9- Write a function that accepts a Person object and prints out their name and age.
+
+10- Create an array of Person objects and use a loop to print the name and age of each person.
+
+11- Define an interface Shape with a method area() that returns a number. Create two classes, Circle and Rectangle, both implementing the Shape interface. Write functions to calculate and display the area of a circle and a rectangle.
+
+
+TASK
+Create a application for ATM machine
+
+1- Accepts 4 digits pin code for authorization, if wrong pin code inserted try again for 3 times and then close the application.
+2- After authorization user can choose for any option from following 
+    Withdraw, Balance Check, Transfer, Change pin, Exit
+3- Withdraw option ask user for amount in multiples of 500 limit it with min 500 and max 25000. after user amount deduct the withdraw amount from balance.
+4- Ask user for another transaction or exit
+5- if user choose another transaction again move to point 2
+6- Balance check return remaining balance of account
+7- Again point 4
+8- Transfer option ask user for another 13 digit account number which are stored in application, if wrong ask try again for 2 times and then move again to point 2 with error message, if correct ask for amount, amount should not be exceed from balance, limit for transfer min 1 and max balance amount. after successful transfer deduct amount from balance.
+9- Again point 4
+10- Change pin ask old pin and new pin after success change pin 
+11- Again point 4
+12- Exit will close the application
+
+
+
+
+
