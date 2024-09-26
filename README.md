@@ -1,4 +1,4 @@
-# AffiCodes
+# AffiCodes - Hacktoberfest 2024!
 
 This is an open-source repository designed for students and young programmers who are absolute beginners in programming and eager to learn. The repository includes a collection of useful algorithms and code samples aimed at assisting beginners. It covers a variety of programming languages.
 
