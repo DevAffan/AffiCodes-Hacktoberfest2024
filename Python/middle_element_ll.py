@@ -42,3 +42,4 @@ middle_node = find_middle(head)
 
 # Display the value of the middle node
 print("The middle node value is:", middle_node.data)
+#this is using fast and slow pointers
