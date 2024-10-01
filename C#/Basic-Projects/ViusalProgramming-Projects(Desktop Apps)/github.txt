@@ -1,0 +1,343 @@
+[![Header](./Gh__header__img.svg 'Click to jum-in at LinkedIn')](https://www.linkedin.com/in/zeeshanmukhtar1/)
+
+[![Welcome msg](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Welcome+to+My+Digital+World!+%F0%9F%8C%90;The+Place+where+i+fork%F0%9F%91%8B)](https://git.io/typing-svg)
+
+# 💫 About Me:
+
+As a self-taught Front-End Web Developer from Pakistan, I hold a Bachelor's degree in IT. With expertise in HTML, CSS, JavaScript, React.js, Bootstrap, and Tailwind, I am passionate about creating exceptional user experiences. Continuously learning and expanding my skills, I am currently exploring the MERN stack (MongoDB, Express.js, React.js, Node.js). As an open-source contributor, I actively collaborate with others to drive innovation. Let's work together to bring your vision to life with a professional touch and create remarkable web experiences! 💻🚀
+
+<details>
+  <summary>Click to expand for more details 🤭</summary>
+
+- Previous Experience: I have been a JavaScript and React.js developer at the Code Lab and IT Solution Software House.
+- Projects: I have worked on various web development projects, creating responsive and user-friendly interfaces.I also worked on some basic Mobile application for android and IOS.
+- Education: I hold a Bachelor's degree in Information Technology from Bahauddin Zakariya University.
+
+</details>
+
+<table style="border: none;" >
+<tr>
+<td style="text-align: justify;" >
+
+- ✨ Creating bugs since the early days of my coding journey.
+- 🎯 Goals: Advancing web development proficiency.
+- 🌱 Currently, I am expanding my skills in web development with a focus on learning MERN Stack.
+- 👯 I am open to collaborating with others on front-end development projects.
+- 👨‍💻 Check out my [Portfolio](https://zeeshan-resume.netlify.app/) website for more information about me and my work.
+- 📝 Currently, I am pursuing a bachelor's degree in IT.
+- 📧 Feel free to contact me via <a href="mailto:zeshanmukhtar878@gmail.com">Email</a> for any inquiries or collaboration opportunities.
+- 💬 Ask me about anything related to web development or connect with me on [LinkedIn](https://www.linkedin.com/in/zeeshanmukhtar1/) or [Instagram](https://www.instagram.com/zeshanmukhtar01/).
+
+### Areas of Expertise
+
+<p align="left">
+<a href="https://html5.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
+<a href="https://www.w3.org/Style/CSS/.
+" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
+<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
+<a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" /></a>  
+<a href="https://www.tailwindcss.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg" alt="Tailwind CSS" height="50" /></a>  
+<a href="https://sass-lang.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/sass-original.svg" alt="Tailwind CSS" height="50" /></a>  
+<a href="https://git-scm.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>    
+<a href="https://react.dev/" target="_blank"><img style="margin: 10px" src="https://readme-components.vercel.app/api?component=logo&logo=react&text=false&animation=spin" alt="React" height="50" /></a>
+<a href="https://postman.com" target="_blank"><img style="margin: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="NPM" height="50" /></a>
+<a href="https://www.npmjs.com/" target="_blank"><img style="margin: 10px" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="NPM" height="50" /></a>
+<a href="https://expressjs.com/" target="_blank"><img style="margin: 10px" src="https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png" alt="Express.js" height="50" /></a>
+<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
+<a href="https://www.markdownguide.org/" target="_blank"><img style="margin: 10px" src="https://cdn.iconscout.com/icon/free/png-256/markdown-3550792-2970377.png" alt="Markdown" height="50" /></a>
+<a href="https://axios-http.com/" target="_blank"><img style="margin: 10px" src="https://cdn-icons-png.flaticon.com/512/627/627558.png" alt="Axios API" height="50" /></a>
+
+</p>
+
+### Furthermore, I'm familiar with 🙂:
+
+<p align="left">
+  <img src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" height="40" width="52" alt="Typescript "  />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=angular&text=true&animation=spin" height="45" width="90" alt="angular "  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" width="52" alt="linux "  />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/>
+</p>
+
+<details>
+  <summary>How I became familiar with these technologies 🤔</summary>
+  
+ - **Android & iOS**: I have built semester projects where I developed mobile apps using React Native. These apps primarily focused on front-end development, and I extensively utilized React Native's components and libraries to create the user interface and functionality.
+  - **C#**: I have built a semester project, where I developed a CRUD app using C#. During this project, I extensively utilized Microsoft SQL Server to fetch data, manage databases, and perform various data operations.
+  
+  - **TypeScript**: While learning the basics of Angular, I also gained knowledge of TypeScript.  I became familiar with TypeScript's syntax and concepts.
+  
+  - **Linux**: As a former Linux user, I have hands-on experience with Ubuntu (Linux distribution). I am comfortable working within a Linux environment and utilizing command-line utilities.
+
+</details>
+ 
+### Let's connect and see where our shared passion for technology can take us! 💻🚀
+
+<p align="left"> 
+<a href="https://twitter.com/ZeshanMukhtar01" target="_blank">
+   <a href="https://www.linkedin.com/in/zeeshanmukhtar1/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
+  <a href="https://www.hackerrank.com/ZeeshanMukhtar1" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/hackerrank/default.svg" width="52" height="40" alt="hackerrank logo"  />
+  </a>
+<a href="https://codepen.io/zeeshanmukhtar1" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/codepen/default.svg" width="52" height="40" alt="codepen logo"  />
+<a href="https://twitter.com/ZeshanMukhtar01" target="_blank">
+    <img src="https://bayrivercolleges.ca/files/logo-x-twitter.svg" width="52" height="40" alt="X logo"  />
+
+ <a href="https://www.instagram.com/zeshanmukhtar01/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+  </a> 
+  <a href="https://www.facebook.com/profile.php?id=100070572332885" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="52" height="40" alt="facebook logo"  />
+  </a>
+</p>
+</td>
+<td>
+<a href="https://app.daily.dev/Zeeshanmukhtar1"><img src="https://github.com/ZeeshanMukhtar1/ZeeshanMukhtar1/blob/main/devcard.svg" width="600" alt="Zeeshan Mukhtar's  developer card "/></a>
+</td>
+</tr>
+</table>
+
+## 🌟 Recent Achievements 🌟
+
+- 🚀 **Hacktoberfest Contributor:** Hacktoberfest 2k23 Open Source Contributor [See Profile](https://www.holopin.io/@zeeshanmukhtar1#)
+
+- 🌳 **Environmental Advocate:** Contributed to a greener planet by planting a tree through Tree Nation. [Forest of Zeeshan](https://tree-nation.com/trees/view/5281810)
+
+- ⭐ **Skill Development:** Improved my JavaScript skills with a 4-star rating on HackerRank. [HackerRank Profile](https://www.hackerrank.com/ZeeshanMukhtar1)
+
+- 🛡️ **Holopin Badges:** Check out my Holopin badges showcasing my contributions and achievements. [Holopin Profile](https://holopin.io/@zeeshanmukhtar1)
+
+- 🖌️ **CSS Expertise:** Earned certification in CSS, further enhancing my front-end development skills. [View Certificate](https://www.hackerrank.com/certificates/c8e861c702e6)
+
+- 🚀 **JavaScript wizard:** Elevated my mastery of the JavaScript programming language. [View Certificate](https://coursera.org/share/b4d7eb15d70c1b00cd19d00b952716dc)
+
+- 🎓 **Certified in Advanced React:** Completed the Advanced React course, enhancing my web development skills. [See Certificate](https://coursera.org/share/918026f1975c0c52165534d622e891e9)
+
+- 🎓 **Bachelor's in Information Technology:** Graduated from Bahauddin Zakariya University with a degree in IT, providing a strong foundation for my career in technology.
+
+</h3>
+
+[![An image of @zeeshanmukhtar1's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/zeeshanmukhtar1)](https://holopin.io/@zeeshanmukhtar1)
+
+## Github statistics 🏆
+
+<img  src="https://github-stats-lemon.vercel.app/api?username=ZeeshanMukhtar1&show_icons=true&hide_border=true&theme=react" width="48%" align="right" >
+
+<img  src="https://github-readme-streak-stats.herokuapp.com/?user=ZeeshanMukhtar1&theme=react" width="48%" >
+<br>
+
+![github graph](https://github-readme-activity-graph.vercel.app/graph?username=ZeeshanMukhtar1&theme=react-dark)
+<br>
+
+<a href="https://github.com/ZeeshanMukhtar1" align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeeshanMukhtar1&langs_count=10&layout=compact&theme=tokyonight" alt="Coding language cocktail" />
+</a>
+
+<div align="center" style="margin-top: 20px;" >
+<img src="https://komarev.com/ghpvc/?username=ZeeshanMukhtar1&&style=flat-square" align="center" />
+
+</div>
+
+<p align="center" style="margin-top: 30px;">
+    <img src="https://emojis.slackmojis.com/emojis/images/1598364417/10264/partykeanu.gif" width="25" height="25"/> 
+    <img src="https://emojis.slackmojis.com/emojis/images/1450319445/43/mario.gif" width="25" height="25"/> 
+    <img src="https://emojis.slackmojis.com/emojis/images/1450372448/149/sonic.gif" width="25" height="25"/> 
+    <img src="https://emojis.slackmojis.com/emojis/images/1450458551/184/nyancat_big.gif" width="25" height="25"/> 
+    <img src="https://emojis.slackmojis.com/emojis/images/1450785773/250/mega.gif" width="25" height="25"/> 
+    <img src="https://emojis.slackmojis.com/emojis/images/1578512858/7452/danceydoge.gif" width="25" height="25"/>
+    <img src="https://emojis.slackmojis.com/emojis/images/1460579133/354/doom_look.gif" width="25" height="25"/>
+    <img src="https://emojis.slackmojis.com/emojis/images/1460579188/357/doom_lost_soul.gif" width="25" height="25"/> 
+</p>
+
+
+
+
+
+
+
+
+<a href="https://github.com/syedmaazsaeed" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=purple alt=github style="margin-bottom: 5px;" />
+</a>
+<a href="https://www.linkedin.com/in/syed-maaz-saeed-908718204
+" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>
+<a href="https://www.facebook.com/syedmaazsaeed" target="_blank">
+<img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
+</a>
+<a href="https://www.instagram.com/syedmaazsaeed/" target="_blank">
+<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=red alt=instagram style="margin-bottom: 5px;" />
+</a>
+
+
+
+<br/>
+
+
+
+
+
+
+<div align="centre">
+<img src="https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb299141098ca1c2d4891870827bf17/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966" align="center" style="width: 50%" />
+</div>
+
+<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Warmest regards! I'm excited to interact with you!
+
+# 💫 About Me:
+
+As a self-taught Front-End Web Developer from Pakistan, I hold a Bachelor's degree in Software Engineering. I am passionate about developing amazing user experiences, and I have skills in HTML, CSS, JavaScript, JQuery, React.js, React Redux ToolKit, Bootstrap, Node JS, Express JS, MongoDB, Git, Github, and Deployment. I am now Exploring the MERN stack Development(MongoDB, Express.js, React.js, Node.js) in order to learn and Polish my skills.I actively collaborate with others as an open-source contributor to drive innovation. Let's embark on a collaborative journey to bring your vision to life with a professional touch that ensures excellence at every step.💻💻💻.
+
+<details>
+  <summary>Click to Expand for more details 🤭</summary>
+
+- Previous Experience: I have created many projects in JavaScript and React.js.
+- Projects: I have worked on various web development projects, creating responsive and user-friendly interfaces.
+- Education: I hold a Bachelor's degree in Software  Engineering from Islamia University Of Bahawalpur.
+  ✨💫💫
+-  My fusion of design intuition and robust coding skills enables me to turn abstract ideas into concrete digital marvels. With a keen eye for design and a strong foundation in coding, I specialize in bringing visual concepts to life through clean and efficient code. My journey in web development has equipped me with the skills to create seamless interfaces that resonate with users. Let's collaborate to turn your ideas into captivating digital realities. My keen attention to detail bridges the gap between aesthetics and functionality, ensuring every user interaction is both delightful and purposeful. With years of experience in the field.✨💫💫
+
+</details>
+
+<table style="border: none;" >
+<tr>
+<td style="text-align: justify;" >
+  
+✨ Creating bugs since the early days of my coding journey.
+
+🎯 Goals: Advancing web development proficiency.
+
+- 🔭 I’m currently working on React.js
+- 🌱 I’m currently learning Node.js
+- ❓ Ask me about anything related to Web Development
+- 👯 I am open to collaborating with others on front-end development projects.
+- 📝 Currently, I am pursuing a bachelor's degree in Software Engineering.
+- 🌱 Currently, I am expanding my skills in web development with a focus on learning MERN Stack.
+- 📧 Feel free to contact me via <a href="mailto:syedmaazsaeed@gmail.com">Email</a> for any inquiries or collaboration opportunities. 
+- ⚡ Fun fact: I keep the night shift switched on at all times
+- 🗝️ Programmers Never Die.
+- - 💬 Ask me about anything related to web development or connect with me on [LinkedIn](https://www.linkedin.com/in/syed-maaz-saeed-908718204) or [Instagram](https://www.instagram.com/syedmaazsaeed/).
+
+### Areas of Expertise
+
+<p align="left">
+  <a href="https://html5.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50"/></a>  
+<a href="https://www.w3.org/Style/CSS/.
+"target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
+<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
+<a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" /></a> 
+<a href="https://git-scm.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>    
+<a href="https://react.dev/" target="_blank"><img style="margin: 10px" src="https://readme-components.vercel.app/api?component=logo&logo=react&text=false&animation=spin" alt="React" height="50" /></a>
+   </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="50"/>
+<a href="https://expressjs.com/" target="_blank"><img style="margin: 10px" src="https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png" alt="Express.js" height="50" /></a>
+<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="50"/> </a>
+<a href="https://cplusplus.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" height="50" /></a>  
+<a href="https://www.cprogramming.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/c-original.svg" alt="C" height="50" /></a>  
+<a href="https://www.mysql.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" /></a>  
+<a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/csharp-original.svg" alt="C#" height="50" /></a>  
+<a href="https://www.oracle.com/" target="_blank">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="55" height="70"/></a> </p>
+
+### Furthermore, I'm familiar with 🙂:
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" width="52" alt="linux "  />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/>
+</p>
+
+### Let's connect and see where our shared passion for technology can take us! 💻🚀
+<a href="https://twitter.com/SyedMaazSaeed/" target="_blank">
+ <a href="https://www.linkedin.com/in/syed-maaz-saeed-908718204" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
+ <a href="https://www.instagram.com/syedmaazsaeed/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+  </a> 
+  <a href="https://www.facebook.com/syedmaazsaeed" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="52" height="40" alt="facebook logo"  />
+  </a>
+</p>
+  </td>
+<td>
+
+  <a href="https://app.daily.dev/syedmuhammadmaaz"><img src="https://api.daily.dev/devcards/6b471f22f9d24856a21b223b7b8b87b5.png?r=hag" width="600" alt="Syed Maaz Saeed developer card "/></a>
+</td>
+</tr>
+</table>
+
+## 🌟 Recent Achievements 🌟
+
+- 🚀 **Hacktoberfest Contributor:** Hacktoberfest 2k23 Open Source Contributor [See Profile](https://holopin.io/@syedmaazsaeed
+)
+
+- 🌳 **Environmental Advocate:** Contributed to a greener planet by planting a tree through Tree Nation. [Forest of Syed Maaz Saeed](https://tree-nation.com/trees/view/5327641)
+- 🛡️ **Holopin Badges:** Check out my Holopin badges showcasing my contributions and achievements. [Holopin Profile](https://holopin.io/@syedmaazsaeed)
+
+- - 🎓 **Certified in Basic React:** Completed the Basic React course, enhancing my web development skills. [See Certificate](https://www.coursera.org/account/accomplishments/verify/5VJHS366GCB8)
+
+- 🎓 **Bachelor's in Software Engineering:** Graduated from Islamia University with a degree in SE, providing a strong foundation for my career in technology.
+- 
+Accomplishments 🥈 : 
+
+[![An image of @syedmaazsaeed's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/syedmaazsaeed)](https://holopin.io/@syedmaazsaeed)
+
+<br/>
+
+## Github Stats
+
+<img  src="https://github-readme-stats.vercel.app/api?username=syedmaazsaeed&show_icons=true&hide_border=true&theme=react" width="48%" align="right" />
+
+<img  src="https://github-readme-streak-stats.herokuapp.com/?user=syedmaazsaeed&theme=react" width="48%" >
+<br>
+
+![github graph](https://github-readme-activity-graph.vercel.app/graph?username=syedmaazsaeed&theme=react-dark)
+<br>
+
+<a href="https://github.com/syedmaazsaeed" align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=syedmaazsaeed&langs_count=10&layout=compact&theme=tokyonight" alt="Coding language cocktail" />
+</a>
+
+<div align="center" style="margin-top: 20px;" >
+<img src="https://komarev.com/ghpvc/?username=syedmaazsaeed&&style=flat-square" align="center" />
+
+</div>
+
+
+![Profile views counter](https://komarev.com/ghpvc/?username=syedmaazsaeed&&style=flat-square)
+
+<p align="center" style="margin-top: 30px;">
+    <img src="https://emojis.slackmojis.com/emojis/images/1598364417/10264/partykeanu.gif" width="25" height="25"/> 
+    <img src="https://emojis.slackmojis.com/emojis/images/1450319445/43/mario.gif" width="25" height="25"/> 
+    <img src="https://emojis.slackmojis.com/emojis/images/1450372448/149/sonic.gif" width="25" height="25"/> 
+    <img src="https://emojis.slackmojis.com/emojis/images/1450458551/184/nyancat_big.gif" width="25" height="25"/> 
+    <img src="https://emojis.slackmojis.com/emojis/images/1450785773/250/mega.gif" width="25" height="25"/> 
+    <img src="https://emojis.slackmojis.com/emojis/images/1578512858/7452/danceydoge.gif" width="25" height="25"/>
+    <img src="https://emojis.slackmojis.com/emojis/images/1460579133/354/doom_look.gif" width="25" height="25"/>
+    <img src="https://emojis.slackmojis.com/emojis/images/1460579188/357/doom_lost_soul.gif" width="25" height="25"/> 
+</p>
+
+---

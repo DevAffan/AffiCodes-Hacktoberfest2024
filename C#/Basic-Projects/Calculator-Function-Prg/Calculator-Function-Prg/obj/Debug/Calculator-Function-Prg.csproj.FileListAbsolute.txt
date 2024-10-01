@@ -1,0 +1,7 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Calculator-Function-Prg\Calculator-Function-Prg\bin\Debug\Calculator-Function-Prg.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Calculator-Function-Prg\Calculator-Function-Prg\bin\Debug\Calculator-Function-Prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Calculator-Function-Prg\Calculator-Function-Prg\bin\Debug\Calculator-Function-Prg.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Calculator-Function-Prg\Calculator-Function-Prg\obj\Debug\Calculator-Function-Prg.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Calculator-Function-Prg\Calculator-Function-Prg\obj\Debug\Calculator-Function-Prg.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Calculator-Function-Prg\Calculator-Function-Prg\obj\Debug\Calculator-Function-Prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Calculator-Function-Prg\Calculator-Function-Prg\obj\Debug\Calculator-Function-Prg.pdb

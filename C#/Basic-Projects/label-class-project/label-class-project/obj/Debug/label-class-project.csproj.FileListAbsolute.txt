@@ -1,0 +1,10 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\label-class-project\label-class-project\bin\Debug\label-class-project.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\label-class-project\label-class-project\bin\Debug\label-class-project.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\label-class-project\label-class-project\bin\Debug\label-class-project.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\label-class-project\label-class-project\obj\Debug\label-class-project.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\label-class-project\label-class-project\obj\Debug\label_class_project.Properties.Resources.resources
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\label-class-project\label-class-project\obj\Debug\label-class-project.csproj.GenerateResource.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\label-class-project\label-class-project\obj\Debug\label-class-project.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\label-class-project\label-class-project\obj\Debug\label-class-project.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\label-class-project\label-class-project\obj\Debug\label-class-project.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\label-class-project\label-class-project\obj\Debug\label_class_project.Details.resources

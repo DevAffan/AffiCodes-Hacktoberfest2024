@@ -1,0 +1,7 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\switch-case-Prg\switch-case-Prg\bin\Debug\switch-case-Prg.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\switch-case-Prg\switch-case-Prg\bin\Debug\switch-case-Prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\switch-case-Prg\switch-case-Prg\bin\Debug\switch-case-Prg.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\switch-case-Prg\switch-case-Prg\obj\Debug\switch-case-Prg.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\switch-case-Prg\switch-case-Prg\obj\Debug\switch-case-Prg.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\switch-case-Prg\switch-case-Prg\obj\Debug\switch-case-Prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\switch-case-Prg\switch-case-Prg\obj\Debug\switch-case-Prg.pdb

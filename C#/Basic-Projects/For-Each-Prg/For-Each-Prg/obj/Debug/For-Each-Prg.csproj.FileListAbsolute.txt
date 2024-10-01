@@ -1,0 +1,7 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\For-Each-Prg\For-Each-Prg\bin\Debug\For-Each-Prg.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\For-Each-Prg\For-Each-Prg\bin\Debug\For-Each-Prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\For-Each-Prg\For-Each-Prg\bin\Debug\For-Each-Prg.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\For-Each-Prg\For-Each-Prg\obj\Debug\For-Each-Prg.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\For-Each-Prg\For-Each-Prg\obj\Debug\For-Each-Prg.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\For-Each-Prg\For-Each-Prg\obj\Debug\For-Each-Prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\For-Each-Prg\For-Each-Prg\obj\Debug\For-Each-Prg.pdb
