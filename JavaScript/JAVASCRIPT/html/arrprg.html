@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+ <!-- 1.  create an array with numbers iterate all numbers one by one for each number get starting point table and ending point for table and then print table for that number ? -->
+    <script>
+
+var numarr1=parseInt(prompt("Enter 1st number"))
+var numarr2=parseInt(prompt("Enter 2nd number"))
+var numarr3=parseInt(prompt("Enter 3rd number"))
+var numarr4=parseInt(prompt("Enter 4th number"))
+var numArr = [numarr1, numarr2, numarr3, numarr4];
+// var numArr = [2,5,10,12];
+
+for (let i = 0; i < numArr.length; i++) {
+  var number = numArr[i];
+
+  const sPoint = 1;
+  const ePoint = 20; 
+  for (let j = sPoint; j <= ePoint; j++) {
+    console.log(`${number} x ${j} = ${number * j}`);
+
+    // console.log(number + "x" + j  +"=" + number * j);
+  }
+  console.log('\n'); 
+}
+
+    </script>
+</body>
+</html>

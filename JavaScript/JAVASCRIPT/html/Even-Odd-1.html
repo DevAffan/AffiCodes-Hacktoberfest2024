@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+//   Even and Odd Number in JAVASCRIPT
+
+    //  let  Num1 = Number(prompt("Enter the First Number"));
+   
+
+    // let a =  Num1 % 2 == 0;
+    //  if(a)
+    //  {
+    //     console.log("The Given Number is Even ");
+    //  }
+    //  else{
+    //     console.log("The Given Number is Odd");
+    //  }
+
+
+const array1=[20,10,-40,34,-2,4,31,45];
+let temp;
+for(let u=0; u<array1.length;u++)
+{
+    for(let v=u;v<array1.length;v++)
+    {
+        if(array1[u] > array1[v])
+
+        {
+            if(array1[v]>0){
+       temp=array1[u];
+       array1[u]=array1[v];
+       array1[v]=temp;
+    }
+}
+}
+}
+console.log(array1);
+
+
+
+    </script>
+</body>
+</html>

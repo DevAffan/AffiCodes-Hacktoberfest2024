@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+                    //  Arithmetic Operotor 
+
+let speed , distance_covered =14 , time_taken = 2; 
+
+//          ( Formula of Speed)
+
+speed= distance_covered / time_taken ;
+
+console.log("speed = " +  speed );
+
+//          (Formula of Velocity)
+ let velocity , displacement = 636 , Time_taken =90;
+ // time_taken and Time_taken are two different variable..
+
+ velocity = displacement / Time_taken;
+
+ console.log("velocity = " + velocity);
+
+
+ // (Formula of distance)
+
+ var distance , speed1 =10 , time=1;
+ distance = speed1 * time;
+
+ console.log("distance = " + distance);
+ 
+
+ // (Formula of displacement)
+
+ var displacement1 , velocity1 =10 , time1=2;
+ displacement1 = velocity1 * time1;
+
+ console.log("displacement1 = " + displacement1);
+
+// (Formula of Gravitational Force)
+
+let F , G =6.67*10** -11 ,m1 =300 , m2 =20 ,  r = 100;
+
+// value of G = 6.673*10^-11
+// power write ** in js
+
+F = G*(m1*m2)/(r*r);
+
+console.log("F = " + F);
+
+// (Formula of Torque )
+ 
+let torque , force =200 , Length = 15;
+torque = force * Length;
+
+console.log("torque " + torque);
+
+// (Formula of Work )
+
+let work , Force =10, displacement2 =23;
+work = Force * displacement2;
+
+console.log("work " + work);
+
+
+// Formula of Area of Circle
+
+var Area , pi=3.1416 , radius = 12;
+Area = pi *(radius*radius);
+console.log("Area of Circle = " , Area );
+
+// Formula of Area of Rectangular
+
+var Area , length = 12 , width = 22;
+Area = length*width;
+console.log("Area of Rectangular = " , Area );
+
+// Formula of Radius of a circle
+
+
+let radius1 , Circumference = 12 
+const Pi = 3.1416;
+radius1 = Circumference / 2* Pi;
+console.log("radius of circle = " , radius1);
+
+// ARITHMETIC-OPERATOR
+
+let w=10;
+let q=20;
+
+// Addition
+
+console.log("w + q = " , w + q);
+
+// Subtraction
+
+console.log("w - q = " , w - q);
+
+// Multiplication
+
+console.log("w * q = " , w * q);
+
+// Division
+
+console.log("w / q = " , w / q);
+
+// Modulus / remainder
+
+console.log("w % q = " , w % q);
+
+// increment
+
+console.log("++w = " , ++w);  // x is now 11
+console.log("w++ = " , w++);  // prints 11 and then increased to 12
+console.log("w = " , w);  // 12 
+
+// decrement
+
+console.log("--w = " , --w);  // x is now 11
+console.log("w-- = " , w--);  // prints 11 and then increased to 10
+console.log("w = " , w);  // 10
+
+
+
+
+// RELATIONAL/DECISION/COMPARISON OPERATOR 
+
+const a = 6 , b = 4 ;
+console.log("a is grator then b " , a > b);
+
+console.log("a is lessor then b " , a < b);
+
+console.log("a is grator or equal  to b " , a >= b);
+
+
+console.log("a is lessor or equal  to b " , a <= b);
+
+
+console.log("a is   not equal  to b " , a != b);
+
+const t = 12 , s = 12;
+console.log("t is    equal  to s " , t == s);
+
+// Logical Operators (Boolean operators )
+
+// logical AND
+console.log(true && true); // true
+console.log(true && false); // false
+
+// logical OR
+console.log(true || false); // true
+
+// logical NOT
+console.log(!true); // false
+
+const h  = 4 , j = 3 ;
+
+console.log(h < 6) && (j < 5); // true
+
+// These Operators works only boolean values
+// 1. And && (both condition are true) invlove 2 operands
+// 2. OR || (any one condition are true) invlove 2 operands
+// 3. NOT ! (true value change into false and false change into true ) invlove 1 operands
+
+// In Arithmetic and Relational operator 
+
+// works both values such as
+//  a = 10;
+//  b = 10;
+//  a = b;
+//  a = true;
+//  variable = value;
+//  variable = boolean;
+//  variable = expression  (2*5)+ (6*5)
+
+
+
+
+
+// concatenation operator
+let k = "World";
+console.log("hello " + " k ");
+
+let i = "Reactive_Native_JS";
+console.log("React JS " + i );
+
+let n = 'JAVASCRIPT';
+n += 'Framworks and Libraries';
+console.log(n);
+
+
+
+
+//            Arithmetic Operators  (Precedence)
+
+/*
+           1. ** (Exponentations)   (Highest)
+           2. * (Multiplication) 
+           2. / (Division)
+           2. % (Modulus)
+           3. + (Addition)
+           3. - (Subtraction)
+           3. " " (Concatenations)  (Lowest)
+
+
+           */
+
+
+//            Bitwise Operators
+
+// 	&	Bitwise AND	x & y
+// 	^	Bitwise XOR	x ^ y
+// 	|	Bitwise OR	x | y
+
+
+
+</script>
+</body>
+</html>

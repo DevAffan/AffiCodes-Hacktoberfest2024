@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested-loop</title>
+</head>
+
+<body>
+
+
+
+
+  <script>
+
+
+
+    // let result="";
+    // for(let i=1;i<=5;i++)
+    // {
+    //     for(let j=0;j<5; j++)
+    //     {
+    //         result+="*\t";
+    //     }
+    //     result+="\n";
+    // }
+    // console.log(result);
+
+
+
+
+
+
+    // let result="";
+
+    // for(var i=0;i<=7;i++)
+    // {
+    //     for(var j=0;j<i; j++)
+    //     {
+    //         result+="*\t";
+    //     }
+    //     result+="*\n";
+    // }
+    // console.log(result);
+
+
+
+
+
+
+
+    // let Result="";
+    // for(let z=8;z>=1;z--)
+    // {
+    //     for(let y=0;y<z;y++)
+    //     {
+    // Result+="*\t";
+    //     }
+    //     Result+="\n"
+    // }
+    // console.log(Result);
+
+
+
+    // let g,h,q;
+    // let result;
+    // for(g=5;g>=1;g--)
+    // {
+    //     for(h=1;h<=5-g;h++)
+    //     {
+    //         result=" ";
+    //     }
+    //     for(q=1;q<=g;q++)
+    //     {
+    //         result+="*";
+
+    //     }
+    //      result+="\n";
+    // }
+    // console.log(result);
+
+
+
+
+    // let a = 9;
+    // let result = "";
+    // for (let u = 1; u <= a ;u++) {
+
+    //   for (let v = 0; v < a - u; v++) {
+    //     result += " ";
+    //   }
+
+    //   for (let w = 0; w < u; w++) {
+    //     result += "*";
+    //   }
+    //   result += "\n";
+    // }
+    // console.log(result);
+
+
+
+
+
+    let n = 10;
+    let result = "";
+
+    for (let i = 0; i <= n; i++) 
+    {
+
+      for (let j = 1; j <=n-i; j++) {
+
+        document.write("  ");
+        result= " ";
+      }
+
+      for (let k = 0; k < 2 * i - 1; k++) {
+
+        result = "*";
+        document.write("*");
+      }
+      result = "\n";
+      document.write("<br>");
+    }
+    // console.log(result);
+document.write(result);
+
+
+
+
+
+
+    // let n = 10;
+    // let result = "";
+
+    // for (let i = 0; i < n; i++) 
+    // {
+
+    //   for (let j = 0; j < i; j++) {
+    //     result += " ";
+    //   }
+
+    //   for (let k = 0; k < 2 * (n-i) - 1; k++) {
+
+    //     result += "*";
+    //   }
+    //   result += "\n";
+    // }
+    // console.log(result);
+
+
+
+    // let a = 5;
+    // let result = "";
+    // for (let i = 1; i <= a; i++) {
+    //   for (let j = 0; j < i; j++) {
+    //     result += "*";
+    //   }
+    //   result += "\n";
+    // }
+    // for (let i = 1; i <= a - 1; i++) {
+    //   for (let j = 0; j < a - i; j++) {
+    //     result += "*";
+    //   }
+    //   result += "\n";
+    // }
+    // console.log(result);
+
+
+
+
+
+
+    // let n = 5;
+    // let result = "";
+    // for (let i = 1; i <= n; i++) {
+    //   for (let j = 0; j < n - i; j++) {
+    //     result += " ";
+    //   }
+    //   for (let k = 0; k < i; k++) {
+    //     result += "*";
+    //   }
+    //   result += "\n";
+    // }
+    // for (let i = 1; i <= n - 1; i++) {
+    //   for (let j = 0; j < i; j++) {
+    //     result += " ";
+    //   }
+    //   for (let k = 0; k < n - i; k++) {
+    //   result += "*";
+    //   }
+    //   result += "\n";
+    // }
+    // console.log(result);
+
+
+
+
+
+    // let n = 5;
+    // let result = "";
+    // let d = 5;
+    // let result1 = "";
+
+    // for (let i = 0; i <= n; i++) 
+    // {
+
+    //   for (let j = 1; j <=n-i; j++) {
+    //     result += " ";
+    //   }
+
+    //   for (let k = 0; k < 2 * i - 1; k++) {
+
+    //     result += "*";
+    //   }
+    //   result += "\n";
+    // }
+
+
+    // for (let i = 0; i < d; i++) 
+    // {
+
+    //   for (let j = 0; j < i; j++) {
+    //     result1+= " ";
+    //   }
+
+    //   for (let k = 0; k < 2 * (d-i) - 1; k++) {
+
+    //     result1 += "*";
+    //   }
+    //   result1 += "\n";
+    // }
+    // console.log(result);
+    // console.log(result1);
+
+
+    // let a = prompt("Enter the Numbers");
+    // let result, b, c;
+    // for (b = 2; b <= a; b++) {
+    //   for (c = 2; c < b; c++) {
+    //     if (b % c == 0) {
+    //       break;
+    //     }
+    //   }
+    //   if (b == c) {
+    //     console.log(b);
+    //   }
+    // }
+
+
+
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+    var number1= parseInt(prompt("Enter the value of  number1 =  "));
+    var number2=parseInt(prompt("Enter the value of  number2 =  "));
+    var Arithematic_operations=prompt("Choose Any Operation = \n 1.Addition \n2.Subtraction \n3.Multiplication  \n4.Division \n 5. Modulus");
+
+  let result;
+
+  switch(Arithematic_operations)
+  {
+    case '1':
+    result=number1+number2; 
+    console.log(result);
+    break;
+
+    case '2':
+    result=number1-number2;
+    console.log(result);
+    break; 
+
+    case '3':
+    result=number1*number2;
+    console.log(result);
+    break;
+
+    case '4':
+    result=number1%number2;
+    console.log(result);
+    break;
+
+    case '5': 
+    result=number1/number2;
+    console.log(result);
+    break;
+
+
+    default:
+    result = "Invalid choice Operation..Conatct us Programmer Syed Maaz ";
+
+  }
+    
+    
+
+
+
+   
+</script>
+
+
+<!-- Get two number from users using prompt
+And 1 option 1-5 which will include plus minus multiple divide and modulus
+Use switch statement for operation and implement that operation on those two number -->
+
+</body>
+</html>

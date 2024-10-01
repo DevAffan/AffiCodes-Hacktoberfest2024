@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select>
+<option>1</option>
+</select>
+<button onclick="changeFont()">Button</button>
+
+    <script>
+
+function changeFont() {
+    const el= document.querySelector("#lastEl");
+    el.style.fontsize="20px";
+    el.style.color="red";
+}
+
+function downKey(e) {
+    console.log(e);
+    const el = document.querySelector("#LastEl");
+const input = document.querySelector("#input");
+eL.innerHTML = input.value;
+}
+function upKey() {
+    console.log("I am up key")
+}
+
+function pressKey() {
+    console.log("I am press key")
+}
+
+document.addEventListener("Keydown" , changeBallPosition);
+function changeBallPosition(e) {
+    console.log(e.KeyCode);
+    if(e.KeyCode==13) {
+
+    }
+}
+    </script>
+</body>
+</html>

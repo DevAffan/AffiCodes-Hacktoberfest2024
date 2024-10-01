@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="btn" onclick="check1()">check1</button>
+    <button class="btn" onclick="check2()">check2</button>
+    <button class="btn" onclick="check3()">check3</button>
+    <button class="btn" onclick="check4()">check4</button>
+    <button class="btn" onclick="check5()">check5</button>
+    <button id="btn" onclick="check6()">check6</button>
+
+
+    <script>
+
+// by Id  (Single element not show array)
+const i =document.getElementById("btn");
+console.log(i);
+
+// by class Name (Array)
+const  j=document.getElementsByClassName("btn");
+console.log(j);
+
+// by Tag Name
+
+const z= document.getElementsByTagName("button")
+console.log(z);
+
+// by queryselector (Single class)
+const u=document.querySelector(".btn")
+console.log(u);
+
+const o=document.querySelector("#btn")
+console.log(o);
+
+// by queryselectorAll (All array show (all classes show))
+
+const v=document.querySelectorAll(".btn")
+console.log(v);
+
+
+
+    </script>
+
+</body>
+</html>

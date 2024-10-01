@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <script>
+
+             // Calculate Your Own Age Program  (Date of Birth)....
+
+
+      var date =  parseInt(prompt("Enter The Date which You are Born "));
+      var month = parseInt(prompt("Enter The Month which You are Born "));
+      var year = parseInt(prompt("Enter The Year which You are Born"));
+
+      var cdate = parseInt(prompt("Enter The  current Date "));
+           var cmonth = parseInt(prompt("Enter The  Current Month "));
+          var cyear = parseInt(prompt("Enter The current  Year "));
+   var date1 , month1 , year1 ;
+
+   
+      
+      if(cdate > date)
+      { 
+        date1 = cdate - date;
+      }
+      else{
+        // cdate = parseInt(cdate);    // Value (string value) convert into integer 
+        cdate += 30;
+        cmonth --;
+        date1= cdate - date;
+        
+      }
+
+      if(cmonth> month)
+      {
+        month1 = cmonth - month;
+      }
+      else{
+        cmonth += 12;
+        cyear --;
+        month1 = cmonth - month;
+      }
+
+      if(cyear > year)
+      {
+        year1 = cyear - year;
+      }
+      else{
+        console.log("Enter Valid Birth Year");
+        
+      }
+      console.log("Your Date of Birth is : ");
+      console.log("Date = " + date1 + ", month = " + month1 +  ", Year = "  + year1);
+
+      // console.log(  date1 , "-", month1 , "-", year1);
+     
+
+    </script>
+
+</body>
+</html>

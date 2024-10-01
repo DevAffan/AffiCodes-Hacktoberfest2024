@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+
+const land=parseFloat( prompt("Enter the Total Amount of Land = "));
+var wf = prompt(" If Your Wife is Alive, Press 1 or  if she is dead so Press 0 =  ");
+var sibling = prompt("Enter how many are of Your Childrens = ");
+
+var b1 =  parseInt( prompt("Enter the Number of Male Children = "));
+var g1 =  parseInt( prompt("Enter the Number Of Female Children="));
+var land2 , land3;
+land2 = land;
+land3 = land;
+
+
+var wf1 = 1/8  ;
+var chb1 = 1/4;
+var chf2 = 1/2;
+if(wf==1)
+{
+  land *= wf1;
+ 
+console.log("This is the part of wife from the Entire Property = " + land);
+}
+else{
+    console.log("Wife is not Present now the Parts of lands divided into Childrens ");
+    
+
+}
+
+if(b1)
+{
+ land2 *= chb1;
+ console.log("This is the part of Male Children from the entire Property  = " + land2);
+}
+
+else{
+    console.log("Check it Again");
+}
+
+if(g1)
+{
+    land3 *= chf2;
+ console.log("This is the part of the Female Children from the entire Property  = " + land3);
+}
+else{
+    
+    console.log("Check it Again");
+}
+
+</script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+<!-- difference between ==(check data type) , === (Check value and data type) -->

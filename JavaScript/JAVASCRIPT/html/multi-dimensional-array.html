@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-dimensional</title>
+</head>
+<body>
+
+
+
+    <script>
+
+                                        // Multi-dimensional Array
+
+
+const array_1=[[2,4,6], 
+                [8,10,12], 
+                [14,16,18]] 
+                
+const array_2 = [[20,22,24], 
+                [26,28,30] ,
+                [32,34,36]] 
+const result = [];
+// const array_3 = [[38,40,42], [46,48,50], [52, 54, 56]];
+// result[0][0] = array_1[0][0] + array_2[0][0];
+// result[0][1] = array_1[0][1] + array_2[0][1];
+
+for(let i = 0; i < array_1.length; i++){
+    const temp = [];
+    for(let j = 0; j < array_1[i].length; j++){
+        temp[j] = array_1[i][j] + array_2[i][j];
+    }
+    result[i] = temp;
+}
+
+console.log(result);
+
+
+
+// console.log(array_1[3]);
+// console.log(array_1)
+
+// console.log(array_1[8])   // give the value that are stored in Following index........
+
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

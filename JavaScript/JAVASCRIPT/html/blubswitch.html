@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <img id="bulbimages" src="../Images/pic_bulboff.gif" alt="" onclick="bulbswitch(this)">
+   <img id="bulbimages" src="../Images/pic_bulboff.gif" alt="" onclick="bulbswitch(this)">
+   <img id="bulbimages" src="../Images/pic_bulboff.gif" alt="" onclick="bulbswitch(this)">
+   <img id="bulbimages" src="../Images/pic_bulboff.gif" alt="" onclick="bulbswitch(this)">
+   <img id="bulbimages" src="../Images/pic_bulboff.gif" alt="" onclick="bulbswitch(this)">
+   <img id="bulbimages" src="../Images/pic_bulboff.gif" alt="" onclick="bulbswitch(this)">
+
+   <button onclick="buttonswitch()">switch The Button</button>
+
+  
+
+</body>
+<script>
+
+   
+
+    function  bulbswitch(el) {
+        const src = el.src;
+        if(el.src.match("../Images/pic_bulbon.jpg"))
+        {
+           el.src="../Images/pic_bulboff.gif";
+        }
+        else
+        {
+            el.src ="../Images/pic_bulbon.jpg";
+        }
+    }
+
+</script>
+<!-- <img src="../Images/pic_bulboff.gif" alt="">
+<img src="../Images/pic_bulbon.jpg" alt=""> -->
+</html>

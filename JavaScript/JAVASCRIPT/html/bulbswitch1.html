@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    
+</style>
+<body>
+    <img id="bulbimages" src="../Images/pic_bulboff.gif" alt="" onclick="bulbswitch()">
+    <img id="bulbimages" src="../Images/pic_bulboff.gif" alt="" onclick="bulbswitch()">
+    <img id="bulbimages" src="../Images/pic_bulboff.gif" alt="" onclick="bulbswitch()">
+    <img id="bulbimages" src="../Images/pic_bulboff.gif" alt="" onclick="bulbswitch()">
+    <img id="bulbimages" src="../Images/pic_bulboff.gif" alt="" onclick="bulbswitch()">
+    <img id="bulbimages" src="../Images/pic_bulboff.gif" alt="" onclick="bulbswitch()">
+    <img id="bulb2images" src="../Images/pic_bulboff.gif" alt=""onclick="bulbswitch1()" >
+    <img id="bulb2images" src="../Images/pic_bulboff.gif" alt=""onclick="bulbswitch1()" >
+    <img id="bulb2images" src="../Images/pic_bulboff.gif" alt=""onclick="bulbswitch1()" >
+    <img id="bulb2images" src="../Images/pic_bulboff.gif" alt=""onclick="bulbswitch1()" >
+    
+
+
+    <script>
+
+        setInterval(bulbswitch , 100);
+function bulbswitch() {
+    const images=document.querySelectorAll("img");
+    for(i=0;i<images.length;i++)
+    {
+        const img=images[i];
+        const src=img.src;
+        if(src.match("../Images/pic_bulboff.gif")) {
+            img.src="../Images/pic_bulbon.jpg"
+        }
+        else {
+            img.src="../Images/pic_bulboff.gif"
+        }
+    }
+}
+
+setInterval(bulbswitch1 , 100);
+function bulbswitch1() {
+    const images1=document.querySelectorAll("img");
+    for(i=0;i<images1.length;i++)
+    {
+        const img=images1[i];
+        const src=img.src;
+        if(src.match("../Images/pic_bulboff.gif")) {
+            img.src="../Images/bulbred.jpg" 
+        }
+        else {
+            img.src="../Images/pic_bulboff.gif"
+        }
+    }
+}
+
+
+    </script>
+    <!-- <img src="../Images/pic_bulbon.jpg" alt=""> -->
+    <!-- <img src="../Images/bulbred.jpg" alt=""> -->
+</body>
+</html>

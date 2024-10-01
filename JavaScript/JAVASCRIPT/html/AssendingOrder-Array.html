@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        //   Ascending Order program
+
+
+        var array = [20, 3, 4, 15, 6, 36, -98, 2, 0, -10, 14];
+        let temp;
+        for (let u = 0; u < array.length; u++) {
+            for (let v = u; v < array.length; v++) {
+                if (array[u] > array[v])
+                    // debugger;
+                    if (array[v] >= 0) {
+                            temp = array[u];
+                            array[u] = array[v];
+                            array[v] = temp;
+                    }
+            }
+        }
+        console.log(array);
+
+
+//  Descending Order Program
+
+// var array = [3 , 4, 6 , 50 , 76 , 2 , 45 , 64 , 34];
+// // var array = [0 , 1 , 3 , 6 , 7 , 8 , 10 , 11 , 79]
+// let check;
+// for(let x=0;x<9;x++)
+// {
+//     for(let y=x+1;y<9;y++)
+//     {
+//         if(array[x]<array[y])
+//         {
+//             check=array[x];
+//             array[x]=array[y];
+//             array[y]=check;
+//         }
+//     }
+// }
+// console.log(array);
+
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

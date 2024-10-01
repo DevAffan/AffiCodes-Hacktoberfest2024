@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        // Multiplication of a matrix 
+
+ const array1=[[4,8,12] , [14,18,22],[26,30,34]];
+
+ const array2=[[2,4,9],[6,8,10],[34,67,10]];
+ let result=[];
+
+
+ for(let i=0;i<array1.length;i++)
+ {
+ let check=[];
+
+     for(let j=0;j<array2[i].length;j++)
+     {
+      check[j]=array1[i][j] * array2[i][j];
+     
+     }
+     result[i]=check;
+ }
+ console.log(result);
+
+ 
+
+// const array1=[[4,8,1] , [4,8,2],[6,3,4]];
+
+// const array2=[[2,4,9],[6,8,10],[3,6,1] ];
+// let i,j,k,plusnum;
+// let result =[];
+
+// for(i=0;i<array1.length;i++)
+// {
+//     result[i]=[];
+//     for(j=0;j<array2[i].length;j++)
+//     {
+//         plusnum=0;
+//         for(k=0;k<array1[i].length;k++)
+//         {
+//             plusnum +=array1[i][k] * array2[k][j]
+//         }
+//         result[i][j]=plusnum
+//     }
+// }
+// console.log(result);
+
+  
+
+
+
+// const array1=[[1,2,3] , [4,5,6],[7,8,9] ,[10,11,12],[13,16,15]];
+
+// const array2=[[1,2,8,11,23],[3,4,6,13,29],[5,6,4,17,31]];
+
+
+
+
+
+
+    </script>
+</body>
+</html>

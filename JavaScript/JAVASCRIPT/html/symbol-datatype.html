@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbol datatype in JS </title>
+</head>
+<body>
+    
+    <script>
+
+var x= Symbol("Unique Value");
+var y=Symbol("Unique Value");
+
+console.log(x===y);
+
+var i=Symbol("Check");
+console.log(i);
+//alert(i.toString());
+<!-- alert(i.description); -->
+
+
+var x=null;
+console.log(null);
+
+var j;
+console.log(typeof j);
+
+
+// Symbol used in objects
+// when we use symbol inside object then use square braces inside symbol variable.. 
+
+// let age = Symbol();
+let age = Symbol("age");
+
+let user={
+   // key:value
+   name:'Ecma Script',
+   version:'ES6',
+   [age]: 25
+
+
+}
+console.log(user);
+
+// 2nd method used symbols inside object
+let age1 = Symbol("age");
+
+let user1={
+   // key:value
+   name:'Ecma Script',
+   version:'ES6'
+}
+user1[age1]=24;
+console.log(user1)
+console.log(user1.name);
+console.log(user1.age1); // facing error used symbol value ..
+console.log(user1[age1]); 
+
+// in symbol for in loop not used
+user[age]=25; // not print because it is symbol value ...
+user["gender"]="male";
+// for(let key in user){
+
+console.log(key);
+// }
+
+
+// In programming Symbol datatype is used to show uniqueness . 
+// (ES6). It represents a unique, immutable value that is often used as an      
+//identifier for object properties.
+//Each time you create a symbol using Symbol(), you get a new, unique symbol value. Symbols are guaranteed to be unique, even if they have the same description.
+
+
+// Why we used objects in js 
+// object is used in js because it changes into json format and then send into oue server 
+
+// console.log(JSON.stringify(user));
+// object passed and return  json but symbol value not print  
+    </script>
+</body>
+</html>

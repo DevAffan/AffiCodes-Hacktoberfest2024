@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .mrg{
+
+        padding-left: 36%;
+        margin-top: 3%;
+    }
+    #bt{
+      padding-left: 34%;
+        margin-top: -3%;
+    }
+    .header{
+    margin-left: 33%;
+    padding-top: 8%;
+    }
+   
+#Addition{
+  height: 6vh;
+  width: 9%;
+text-transform: uppercase;
+background-color: rgb(252, 19, 19);
+
+}
+#Subtraction{
+  height: 6vh;
+  width: 9%;
+  text-transform: uppercase;
+  background-color: yellowgreen;
+
+}
+#Multiplication{
+  height: 6vh;
+  width: 9%;
+  text-transform: uppercase;
+  background-color: burlywood;
+
+}
+#Modulus{
+  height: 6vh;
+  width: 9%;
+  background-color: #0f0f0f;
+  color: azure;
+ 
+
+}
+#Division{
+  height: 6vh;
+  width: 9%;
+  background-color: gray;
+
+
+}
+
+#Square{
+  height: 6vh;
+  width: 9%;
+  background-color: green;
+
+
+}
+#value1{
+  height: 4vh;
+  width: 21%;
+}
+#value2{
+  height: 4vh;
+  width: 21%;
+}
+
+
+</style>
+<body style="Background-color: rgb(204, 0, 255) ;">
+    <div class="header"><h1 style="color: orange"><strong> Calculator design IN JAVAScript</strong> </h1></div>
+<div class="mrg"> 
+    <input type="number" id="value1" value="25" >
+    <input type="number" id="value2" value="30">
+  </div>
+  <div id="bt">
+    <br><br><br><br><br><div id="calculator"></div>
+    <div id="cal"></div>
+    <div id="cal1"></div>
+    <div id="cal2"></div>
+    <div id="cal3"></div>
+    <div id="cal4"></div>
+  
+    <button id="Addition" onclick="Addition()"> + (Add)</button> 
+    <button id="Subtraction" onclick="Subtraction()" >- (Sub)</button>
+    <button id="Multiplication" onclick="Multiplication()" > x (Mul)</button>
+    <button id="Modulus" onclick="Mode()" > % (Mode)</button>
+    <button id="Division"  onclick="Divide()"> / (Divide)</button>
+    <button id="Square"  onclick="Square()"> x²(Square)</button>
+  </div>
+
+
+   <script>
+
+
+
+
+  function Addition() 
+  {
+
+let m= parseInt(document.getElementById("value1").value);
+let a= parseInt(document.getElementById("value2").value);
+let z=m+a;
+
+document.getElementById("calculator").innerHTML=z;
+  }
+
+
+
+
+  function Subtraction() 
+  {
+let m=document.getElementById("value1").value;
+
+let a=document.getElementById("value2").value;
+let z=m-a;
+document.getElementById("cal").innerHTML=z;
+  }
+
+
+
+
+  function Multiplication() 
+  {
+let m=document.getElementById("value1").value;
+
+let a=document.getElementById("value2").value;
+let z=m*a;
+document.getElementById("cal1").innerHTML=z;
+  }
+
+
+
+  function Mode() 
+  {
+let m=document.getElementById("value1").value;
+
+let a=document.getElementById("value2").value;
+let z=m%a;
+document.getElementById("cal2").innerHTML=z;
+  }
+
+
+
+  function Divide() 
+  {
+let m=document.getElementById("value1").value;
+
+let a=document.getElementById("value2").value;
+let z=m/a;
+document.getElementById("cal3").innerHTML=z;
+  }
+
+  function Square() 
+  {
+
+let m= parseInt(document.getElementById("value1").value);
+
+let z=m*m;
+
+document.getElementById("cal4").innerHTML=z;
+  }
+
+
+   </script>
+
+
+</body>
+</html>

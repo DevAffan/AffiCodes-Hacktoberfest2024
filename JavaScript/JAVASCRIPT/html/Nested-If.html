@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+             //     Nested IF Structure( multiple solution ) and && use nested if...   
+             //     Escape Sequence (Formatting of String)
+            //  \t (tab) , \n (new line) , \" \"  (double quotes), 
+
+             let Number1 = prompt("Enter the Number ");
+             let Result;
+             if(Number1 >0)
+    {
+             Result ="positive\t";
+             
+                if(Number1 % 2 ==0)
+                {
+                    Result +="Even";
+                }
+                else
+                {
+
+                  Result +="Odd";
+                }
+
+             }
+             else{
+
+                Result ="Negative\t";
+
+                if(Number1 % 2 == 0 )
+                {
+                    Result += "\"Even\"";
+                }
+                else{
+                    Result += "odd";
+                }
+             }
+             console.log(Result);
+
+
+    </script>
+</body>
+</html>

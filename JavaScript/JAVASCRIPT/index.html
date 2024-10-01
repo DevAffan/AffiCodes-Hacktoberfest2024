@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+
+  <body>
+
+    <p id="my-para">
+      I am learning and revise JavaScript . JS is the language of the web It was
+      made to power the web means to do client side programming in web. Early JS
+      Only work Browser . but in the passage of time nodejs is used and to do
+      serve side programming
+
+    </p>
+
+    <script>
+
+      let a = 32;
+      console.log(a);
+
+      var element = document.getElementById("my-para");
+      console.log(element.textContent);
+
+      /* let obj={
+        b: 43,
+        c: 22,
+
+        func: function myfunc(number) {
+            console.log("The Number is " + number);
+
+        }
+
+
+    } */
+
+
+      document.addEventListener("click", function () {
+        alert("hello Maaz");
+        let c = confirm("Are you sure you want to do this ");
+        console.log(c);
+      });
+
+
+      function newfun(numbers) {
+        console.log(this);
+        console.log(" this  is a number" + numbers);
+      }
+
+
+      let myobj = {
+        i: this,
+        arrowfunction: (number) => {
+          console.log("The Number is " + this);
+        },
+
+      };
+
+      myobj.arrowfunction();
+      console.log(myobj.i);
+
+      // Normal Function used
+
+      let obj2 = {
+        v: this,
+        myfunc: function (num) {
+          console.log(this);
+        },
+      };
+
+      obj2.myfunc();
+      console.log(obj2.v);
+
+      
+      let  mydata= (stddata,credithours)=> {
+        return `MY Semester DMCs ${stddata} - ${credithours}`
+    }
+    console.log(mydata("Major Subjects" , "900 Hours"));
+    console.log(typeof mydata)
+
+/*
+    function sum(num1,num2,num3,num4) {
+      return num1+num2+num3+num4;
+    }
+    console.log(sum(20,10,1,2)); */
+
+
+    // Rest Operator in JS ... 
+
+    // in case we passed multiple values such as string , and numberic values so we used rest operators in js 
+
+function sum(name,...arguments) {
+  let sum =0 ;
+  for(let j in arguments){
+    sum+=arguments[j];
+}
+console.log(sum);
+console.log(name); 
+}
+
+
+
+function add() {
+console.log(arguments);
+let add=0;
+for(let i in arguments){
+  add+=arguments[i];
+}
+console.log(add);
+}
+add(23,44,40)
+add(20,30)
+// but we use add("ali" , 20 , 9 ,48)  use rest operator
+
+// Rest operator must be last formal parameter
+
+function addition(name,course, ...args) {
+  console.log(arguments);
+  console.log(`Welcome to our WeB Community ${name} of ${course} : `)
+  let addition=0;
+  for(let j in args){
+    addition+=args[j];
+  }
+  console.log(addition);
+  }
+  addition("Maaz","BSSE",20,4,40);
+  addition("John",2,4,);
+  // Rest operator works....
+
+
+
+
+
+    </script>
+
+
+
+    <!-- Normal function this is undefined but in arrow function this is defined
+outside the object refer  -->
+    <!-- JS Work Asynchronous not block the code  -->
+  </body>
+</html>

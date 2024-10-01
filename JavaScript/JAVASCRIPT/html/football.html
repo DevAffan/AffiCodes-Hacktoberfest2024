@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #football {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200px;
+        transform: rotate(360deg);
+        transition: all 0.6s ease-in-out;
+    }
+</style>
+<body>
+    
+<img id="football" src="../Images/download.jpg" >
+<script>
+document.addEventListener("keyup" , changeposition);
+
+
+function changeposition(e) {
+    const ball=document.getElementById("football");
+    const bodywidth = window.innerWidth;
+    const bodyheight = window.innerHeight;
+
+    switch (e.key) {
+
+        case "ArrowLeft":
+            ball.style.left=0;
+            break;
+            
+        case "ArrowRight":
+            ball.style.left=bodywidth-ball.offsetwidth+ "px";
+            break;
+    
+    
+    case "ArrowDown":
+    ball.style.top=bodyheight-ball.offsetheight+ "px";
+            break;
+    
+    
+    case "ArrowUp":
+    ball.style.top=0;
+            break;
+
+
+            default:
+                console.log("invalid");
+    
+    }
+}
+
+</script>
+
+
+    <script>
+
+
+
+
+    </script>
+</body>
+</html>

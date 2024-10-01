@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <html>
+        <head>
+          <script>
+            function validateForm() {
+              var name = document.forms["myForm"]["name"].value;
+              var email = document.forms["myForm"]["email"].value;
+              var password = document.forms["myForm"]["password"].value;
+              var password2 = document.forms["myForm"]["password2"].value;
+      
+              // Reset error messages
+              document.getElementById("nameError").innerHTML = "";
+              document.getElementById("emailError").innerHTML = "";
+              document.getElementById("passwordError").innerHTML = "";
+              document.getElementById("password2Error").innerHTML = "";
+      
+              // Validate name
+              if (name == "") {
+                document.getElementById("nameError").innerHTML = "Name must be filled out";
+                return false;
+              }
+      
+              // Validate email
+              if (email == "") {
+                document.getElementById("emailError").innerHTML = "Email must be filled out";
+                return false;
+              }
+      
+              // Validate password
+              if (password == "") {
+                document.getElementById("passwordError").innerHTML = "Password must be filled out";
+                return false;
+              }
+      
+              // Validate password match
+              if (password != password2) {
+                document.getElementById("password2Error").innerHTML = "Passwords do not match";
+                return false;
+              }
+      
+              return true;
+            }
+          </script>
+        </head>
+        <body>
+          <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            Name: <input type="text" name="name"><br>
+            <span id="nameError" style="color:red"></span><br><br>
+            Email: <input type="email" name="email"><br>
+            <span id="emailError" style="color:red"></span><br><br>
+            Password: <input type="password" name="password"><br>
+            <span id="passwordError" style="color:red"></span><br><br>
+            Confirm Password: <input type="password" name="password2"><br>
+            <span id="password2Error" style="color:red"></span><br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </body>
+      </html>
+      
+</body>
+</html>

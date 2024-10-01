@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+
+// let number = parseInt(prompt("Enter the Number"));
+
+// let k = 2;
+
+// while(k< number)
+// {
+//     if(number % k == 0)
+//     {
+//         console.log(" Not a Prime Number");
+//         break;
+//     }
+
+//     else
+//     {
+//         console.log(" Prime Number");
+//     }
+//     k++;
+// }
+
+// let number = parseInt(prompt("Enter the Number"));
+let number1 = [12,55,13,9,5,45,11,78];
+let c=2;
+let isprime =true;
+
+while(c<number1)
+{
+    if(c % number1 ===0)
+    {
+       isprime = false;
+       break;
+    }
+    c++;
+}
+if(isprime==false)
+{
+    console.log( number1 ," not a prime");
+}
+else{
+    console.log( number1 +" prime number")
+}
+
+// console.log((isprime ? "" : "Not ") + "prime number")
+
+
+</script>
+
+</body>
+</html>

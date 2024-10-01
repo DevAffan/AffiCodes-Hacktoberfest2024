@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" ></script>
+
+  <script>
+
+setTimeout(showalert,4000)
+function showalert() {
+    Swal.fire({
+        title: 'Submit your Github username',
+        input: 'text',
+        inputAttributes: {
+          autocapitalize: 'off'
+        },
+        showCancelButton: true,
+        confirmButtonText: 'Look up',
+        showLoaderOnConfirm: true,
+        preConfirm: (login) => {
+          return fetch(`//api.github.com/users/${login}`)
+            .then(response => {
+              if (!response.ok) {
+                throw new Error(response.statusText)
+              }
+              return response.json()
+            })
+            .catch(error => {
+              Swal.showValidationMessage(
+                `Request failed: ${error}`
+              )
+            })
+        },
+        allowOutsideClick: () => !Swal.isLoading()
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire({
+            title: `${result.value.login}'s avatar`,
+            imageUrl: result.value.avatar_url
+          })
+        }
+      })
+
+    }
+    setTimeout(showalert1,5000)
+function showalert1() {
+      swal({
+        text: 'Search for a movie. e.g. "Commando 3, Armyoftheworld".',
+        content: "input",
+        button: {
+          text: "Search!",
+          closeModal: false,
+        },
+      })
+      .then(name => {
+        if (!name) throw null;
+       
+        return fetch(`https://itunes.apple.com/search?term=${name}&entity=movie`);
+      })
+      .then(results => {
+        return results.json();
+      })
+      .then(json => {
+        const movie = json.results[0];
+       
+        if (!movie) {
+          return swal("No movie was found!");
+        }
+       
+        const name = movie.trackName;
+        const imageURL = movie.artworkUrl100;
+       
+        swal({
+          title: "Top result:",
+          text: name,
+          icon: imageURL,
+        });
+      })
+      .catch(err => {
+        if (err) {
+          swal("Oh noes!", "The AJAX request failed!", "error");
+        } else {
+          swal.stopLoading();
+          swal.close();
+        }
+      });
+}
+
+setTimeout(showalert,6000)
+function showalert3() {
+    swal({
+        title: "Are you sure?",
+        text: "Once deleted, you will not be able to recover this imaginary file!",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          swal("Poof! Your imaginary file has been deleted!", {
+            icon: "success",
+          });
+        } else {
+          swal("Your imaginary file is safe!");
+        }
+      });
+}
+
+  </script>
+
+
+    
+</body>
+</html>

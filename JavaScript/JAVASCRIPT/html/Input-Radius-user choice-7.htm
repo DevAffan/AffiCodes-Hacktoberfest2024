@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+let radius = prompt("Enter the Value of Radius");
+var circumference;
+let choice = prompt("Enter 1 for area and 2 for Circumference");
+
+if(choice == 1)
+{
+    let area;
+    area = radius * radius * 3.1416;
+    console.log("The area of circle is " , area);
+}
+
+else if(choice == 2)
+{
+    circumference = 2 * 3.1416 * radius;
+    console.log("Circumference of circle is " , circumference);
+}
+
+else{
+    console.log("You Ennter Wrong Input");
+}
+
+</script>
+
+</body>
+</html>

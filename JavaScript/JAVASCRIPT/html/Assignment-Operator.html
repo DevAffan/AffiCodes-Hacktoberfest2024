@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-Operator</title>
+</head>
+<body>
+    
+
+
+<script>
+
+ let j = 2 == "2";  // just check equal value
+ console.log(j);
+
+ let k = "2" === 2;   // check datatype + value equal strict equality 
+ // === (Triple equals) is a strict equality comparison operator in JavaScript, which returns false for the values which are not of a similar type. This operator performs type casting for equality. If we compare 2 with “2” using ===, then it will return a false value.
+ console.log(k);
+
+
+ let y = 9;
+//  y++;
+//  y = y + 1;
+//  y--;
+//  y = y-1;
+ 
+ y += 320; // (best method)
+ console.log("value of y is = " , y);
+
+ y-=30;
+ console.log("value of y is = " , y);
+
+
+ y*=20;
+ console.log("value of y is = " + y);
+
+ y/=20;
+ console.log("value of y is = " + y);
+
+ y%=20;
+ console.log("value of y is = " , y);
+
+ let check = y % 2 == 0;
+ console.log("value is = " , check );
+
+
+
+//                         ( Assignment Operator )
+
+    //                    (Arithmetic + Assignment)
+// Types of Assignment Operator
+/* 1. Simple Assignment =
+
+2. Addition Assignment +=                  // c = c+1 , c +=1 .. c=c+1
+
+3. Subtraction Assignment -=                  // c = c-1 , c -=1 .. c=c-1
+
+4. Multiplication Assignment +=                  // c = c*1 , c *=1 .. c=c*1
+
+5. Division Assignment /=                  // c = c/1 , c /=1 .. c=c/1
+
+6. Modulus Assignment %=                  // c = c%1 , c %=1 .. c=c%1
+
+*/
+                    //     ( Relational + Arithmetic +Assignment)
+let a = 7 , g = 9;
+ let f=  (a>=7) + (g<=9);
+ console.log("Value of f is = " , f);
+
+                    // Boolean Operator 
+              let b= true;
+              let c = false;
+
+          let d=   !(b&&c) || (!c || b);
+              console.log( " value  is = " , d  );
+
+
+
+
+
+</script>
+
+</body>
+</html>
