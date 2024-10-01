@@ -1,0 +1,10 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Student-Grade-Project\Student-Grade-Project\bin\Debug\Student-Grade-Project.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Student-Grade-Project\Student-Grade-Project\bin\Debug\Student-Grade-Project.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Student-Grade-Project\Student-Grade-Project\bin\Debug\Student-Grade-Project.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Student-Grade-Project\Student-Grade-Project\obj\Debug\Student-Grade-Project.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Student-Grade-Project\Student-Grade-Project\obj\Debug\Student_Grade_Project.Form1.resources
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Student-Grade-Project\Student-Grade-Project\obj\Debug\Student_Grade_Project.Properties.Resources.resources
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Student-Grade-Project\Student-Grade-Project\obj\Debug\Student-Grade-Project.csproj.GenerateResource.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Student-Grade-Project\Student-Grade-Project\obj\Debug\Student-Grade-Project.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Student-Grade-Project\Student-Grade-Project\obj\Debug\Student-Grade-Project.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Student-Grade-Project\Student-Grade-Project\obj\Debug\Student-Grade-Project.pdb

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student-LoginForm", "Student-LoginForm\Student-LoginForm.csproj", "{9642F26D-3A15-46C5-8F1D-4EE3D3C5731A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{44FAB4EC-60A2-43AE-A97F-CF45CF0AAA87}"
+	ProjectSection(SolutionItems) = preProject
+		SqlQuery_1.sql = SqlQuery_1.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9642F26D-3A15-46C5-8F1D-4EE3D3C5731A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9642F26D-3A15-46C5-8F1D-4EE3D3C5731A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9642F26D-3A15-46C5-8F1D-4EE3D3C5731A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9642F26D-3A15-46C5-8F1D-4EE3D3C5731A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BFAD814-631E-4945-B42A-04C8DC56EDF1}
+	EndGlobalSection
+EndGlobal

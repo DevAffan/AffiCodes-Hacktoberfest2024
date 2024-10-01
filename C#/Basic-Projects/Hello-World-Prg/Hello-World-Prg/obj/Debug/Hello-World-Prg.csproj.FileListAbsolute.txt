@@ -1,0 +1,7 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Hello-World-Prg\Hello-World-Prg\bin\Debug\Hello-World-Prg.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Hello-World-Prg\Hello-World-Prg\bin\Debug\Hello-World-Prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Hello-World-Prg\Hello-World-Prg\bin\Debug\Hello-World-Prg.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Hello-World-Prg\Hello-World-Prg\obj\Debug\Hello-World-Prg.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Hello-World-Prg\Hello-World-Prg\obj\Debug\Hello-World-Prg.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Hello-World-Prg\Hello-World-Prg\obj\Debug\Hello-World-Prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Hello-World-Prg\Hello-World-Prg\obj\Debug\Hello-World-Prg.pdb

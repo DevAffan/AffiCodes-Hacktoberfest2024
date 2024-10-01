@@ -1,0 +1,7 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Practice-prg\Practice-prg\bin\Debug\Practice-prg.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Practice-prg\Practice-prg\bin\Debug\Practice-prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Practice-prg\Practice-prg\bin\Debug\Practice-prg.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Practice-prg\Practice-prg\obj\Debug\Practice-prg.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Practice-prg\Practice-prg\obj\Debug\Practice-prg.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Practice-prg\Practice-prg\obj\Debug\Practice-prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Practice-prg\Practice-prg\obj\Debug\Practice-prg.pdb

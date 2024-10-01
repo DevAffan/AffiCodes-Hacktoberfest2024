@@ -1,0 +1,7 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Marks&Names-std\Marks&Names-std\bin\Debug\Marks&Names-std.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Marks&Names-std\Marks&Names-std\bin\Debug\Marks&Names-std.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Marks&Names-std\Marks&Names-std\bin\Debug\Marks&Names-std.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Marks&Names-std\Marks&Names-std\obj\Debug\Marks&Names-std.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Marks&Names-std\Marks&Names-std\obj\Debug\Marks&Names-std.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Marks&Names-std\Marks&Names-std\obj\Debug\Marks&Names-std.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Marks&Names-std\Marks&Names-std\obj\Debug\Marks&Names-std.pdb

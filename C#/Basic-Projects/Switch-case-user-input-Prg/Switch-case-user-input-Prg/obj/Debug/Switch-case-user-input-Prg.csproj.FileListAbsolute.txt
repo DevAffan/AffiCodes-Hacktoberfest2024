@@ -1,0 +1,7 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Switch-case-user-input-Prg\Switch-case-user-input-Prg\bin\Debug\Switch-case-user-input-Prg.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Switch-case-user-input-Prg\Switch-case-user-input-Prg\bin\Debug\Switch-case-user-input-Prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Switch-case-user-input-Prg\Switch-case-user-input-Prg\bin\Debug\Switch-case-user-input-Prg.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Switch-case-user-input-Prg\Switch-case-user-input-Prg\obj\Debug\Switch-case-user-input-Prg.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Switch-case-user-input-Prg\Switch-case-user-input-Prg\obj\Debug\Switch-case-user-input-Prg.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Switch-case-user-input-Prg\Switch-case-user-input-Prg\obj\Debug\Switch-case-user-input-Prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Switch-case-user-input-Prg\Switch-case-user-input-Prg\obj\Debug\Switch-case-user-input-Prg.pdb
