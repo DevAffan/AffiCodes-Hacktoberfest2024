@@ -34,7 +34,7 @@ To clone the repository, go to your account, open this repo, and either click on
 
 > git clone <_copied URL_>
 
-e.g. `git clone https://github.com/DevAffan/contribution.git`
+e.g. `git clone https://github.com/DevAffan/AffiCodes-Hacktoberfest2024.git`
 
 ### Step 4 
 Create a branch
