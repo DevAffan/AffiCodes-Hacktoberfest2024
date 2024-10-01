@@ -3,29 +3,38 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Function to find the maximum subarray sum
+// Function to find the maximum subarray sum using Kadane's Algorithm
 int maxSubarraySum(vector<int> &arr) {
-    int res = arr[0];
-    int maxEnding = arr[0];
+    // Initialize the result (maximum subarray sum found so far)
+    // and the maximum sum of the subarray ending at the current index.
+    int res = arr[0];        // `res` stores the maximum sum we have encountered so far
+    int maxEnding = arr[0];   // `maxEnding` stores the maximum sum of the subarray ending at the current index
 
+    // Loop through the array starting from the second element (i = 1)
     for (int i = 1; i < arr.size(); i++) {
-      
-        // Find the maximum sum ending at index i by either extending 
-        // the maximum sum subarray ending at index i - 1 or by
-        // starting a new subarray from index i
+        // Update maxEnding by taking the maximum of two choices:
+        // 1. Extend the previous subarray by adding arr[i] to maxEnding.
+        // 2. Start a new subarray with arr[i] as the only element.
         maxEnding = max(maxEnding + arr[i], arr[i]);
-      
-        // Update res if maximum subarray sum ending at index i > res
+
+        // Update the result if the new subarray sum (maxEnding) is larger than the previous maximum
         res = max(res, maxEnding);
     }
+
+    // Return the overall maximum subarray sum found
     return res;
 }
 
 int main() {
+    // Example array for testing
     vector<int> arr = {2, 3, -8, 7, -1, 2, 3};
-    cout << maxSubarraySum(arr);
+
+    // Output the maximum subarray sum
+    cout << "Maximum Subarray Sum: " << maxSubarraySum(arr) << endl;
+
     return 0;
 }
+
 
 //output 11
 
