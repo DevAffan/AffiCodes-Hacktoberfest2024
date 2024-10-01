@@ -47,6 +47,7 @@ obj/
 *.h             # Header files, if any
 
 # Rider-specific files
+
 .idea/
 *.iml
 
