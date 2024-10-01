@@ -4,73 +4,83 @@ This is an open-source repository designed for students and young programmers wh
 
 **Begin your journey of contributing here**<br />
 
-**Languages You Will Found:**<br />
--HTML<br />
--CSS<br />
--JAVASCRIPT<br />
--PHP<br />
--PYTHON<br />
--C++<br />
--C#<br />
--JAVA<br />
+**Languages You Will Find:**<br />
+- HTML<br />
+- CSS<br />
+- JAVASCRIPT<br />
+- PHP<br />
+- PYTHON<br />
+- C++<br />
+- C#<br />
+- JAVA<br />
 
-**You can also find**</br>
--Mini Projects 
+**You can also find**<br />
+- Mini Projects 
 
-# How to contribute
+## How to contribute
 1. You can contribute with Code.
 2. Fixing issues.
-3. You can contribute in terms of usefull tips and tricks of programming or add documentations.
+3. You can contribute in terms of useful tips and tricks of programming or add documentation.
 
 ## Steps.
 ### Step 1
-Starred and Fork this repository
-### step 2 Fork this repository
-You can fork this repository by clicking on fork button on top right corner. Once you fork this will create a copy of repo on your account
-### step 3 Clone the repository 
-To clone the repository go to your account open this repo and either click on clone button or run the command below to get this repository on your local machine
+Star and Fork this repository.
+### Step 2 
+Fork this repository
+You can fork this repository by clicking on the fork button on the top right corner. Once you fork, this will create a copy of the repo on your account.
+### Step 3 
+Clone the repository 
+To clone the repository, go to your account, open this repo, and either click on the clone button or run the command below to get this repository on your local machine.
 
 > git clone <_copied URL_>
 
-e.g. git clone https://github.com/DevAffan/contribution.git
+e.g. `git clone https://github.com/DevAffan/contribution.git`
 
-### step 4 Create a branch
-Go inside of your folder where you clone the repository and run these commands.
+### Step 4 
+Create a branch
+Go inside your folder where you cloned the repository and run these commands.
 
-create a new branch using below command.
+Create a new branch using the command below.
 
 > git checkout -b \<branch-name\>
 
 e.g. `git checkout -b mybranch`
 
-### step 5 Lets make some contributions
+### Step 5 
+Let's make some contributions
 Make changes to files on your local machine or add some code. 
 
-### step 6 Add Changes and Commit Changes
-use the following commands
+### Step 6 
+Add Changes and Commit Changes
+Use the following commands
 
 > git add .
 
-Now we have to commit changes, commit message should always be clear, to commit use command below.
+Now we have to commit changes; the commit message should always be clear. To commit, use the command below.
 
 > git commit -m "resolved the \<issue\>"
 
-### step 7 Push changes to GitHub
+### Step 7 
+Push changes to GitHub
 Now push the changes to your branch.
 
 > git push origin \<branch-name\>
 
-name of branch is same as you created in step 4
+The name of the branch is the same as you created in step 4.
 
-e.g `git push origin mybranch`
+e.g. `git push origin mybranch`
 
-### step 8 Submit your changes for review
-Once you have pushed your code to GitHub, it's now time to create pull request, you will go to the repository click on compare and pull request and submit the pull request.
+### Step 8 
+Submit your changes for review
+Once you have pushed your code to GitHub, it's now time to create a pull request. You will go to the repository, click on compare and pull request, and submit the pull request.
 
-Soon, we will be merging all your pull requests to the main branch of project.
+Soon, we will be merging all your pull requests to the main branch of the project.
 
-
-
+## Objectives for README Improvement
+- Improve the overall readability and structure of the README files.
+- Ensure that the documentation is easy to follow and understand.
+- Add missing details or sections, such as installation instructions, usage examples, and contribution guidelines.
+- Improve formatting, layout, and design for a cleaner and more professional appearance.
 
 ### TOP CONTRIBUTORS
 
