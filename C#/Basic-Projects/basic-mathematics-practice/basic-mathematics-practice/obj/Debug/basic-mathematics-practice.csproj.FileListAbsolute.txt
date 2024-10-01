@@ -1,0 +1,10 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\basic-mathematics-practice\basic-mathematics-practice\bin\Debug\basic-mathematics-practice.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\basic-mathematics-practice\basic-mathematics-practice\bin\Debug\basic-mathematics-practice.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\basic-mathematics-practice\basic-mathematics-practice\bin\Debug\basic-mathematics-practice.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\basic-mathematics-practice\basic-mathematics-practice\obj\Debug\basic-mathematics-practice.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\basic-mathematics-practice\basic-mathematics-practice\obj\Debug\basic_mathematics_practice.Mathematics.resources
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\basic-mathematics-practice\basic-mathematics-practice\obj\Debug\basic_mathematics_practice.Properties.Resources.resources
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\basic-mathematics-practice\basic-mathematics-practice\obj\Debug\basic-mathematics-practice.csproj.GenerateResource.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\basic-mathematics-practice\basic-mathematics-practice\obj\Debug\basic-mathematics-practice.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\basic-mathematics-practice\basic-mathematics-practice\obj\Debug\basic-mathematics-practice.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\basic-mathematics-practice\basic-mathematics-practice\obj\Debug\basic-mathematics-practice.pdb

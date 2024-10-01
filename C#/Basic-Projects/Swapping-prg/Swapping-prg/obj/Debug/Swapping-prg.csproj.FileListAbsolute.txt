@@ -1,0 +1,7 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Swapping-prg\Swapping-prg\bin\Debug\Swapping-prg.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Swapping-prg\Swapping-prg\bin\Debug\Swapping-prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Swapping-prg\Swapping-prg\bin\Debug\Swapping-prg.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Swapping-prg\Swapping-prg\obj\Debug\Swapping-prg.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Swapping-prg\Swapping-prg\obj\Debug\Swapping-prg.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Swapping-prg\Swapping-prg\obj\Debug\Swapping-prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Swapping-prg\Swapping-prg\obj\Debug\Swapping-prg.pdb

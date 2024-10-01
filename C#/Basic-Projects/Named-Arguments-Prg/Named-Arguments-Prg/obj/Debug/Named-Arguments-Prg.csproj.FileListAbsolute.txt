@@ -1,0 +1,7 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Named-Arguments-Prg\Named-Arguments-Prg\bin\Debug\Named-Arguments-Prg.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Named-Arguments-Prg\Named-Arguments-Prg\bin\Debug\Named-Arguments-Prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Named-Arguments-Prg\Named-Arguments-Prg\bin\Debug\Named-Arguments-Prg.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Named-Arguments-Prg\Named-Arguments-Prg\obj\Debug\Named-Arguments-Prg.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Named-Arguments-Prg\Named-Arguments-Prg\obj\Debug\Named-Arguments-Prg.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Named-Arguments-Prg\Named-Arguments-Prg\obj\Debug\Named-Arguments-Prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Named-Arguments-Prg\Named-Arguments-Prg\obj\Debug\Named-Arguments-Prg.pdb

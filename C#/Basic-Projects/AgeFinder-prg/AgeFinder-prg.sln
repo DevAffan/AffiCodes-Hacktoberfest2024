@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeFinder-prg", "AgeFinder-prg\AgeFinder-prg.csproj", "{7318A16E-2B0A-4CD0-8E2D-1E4B26D9531D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7318A16E-2B0A-4CD0-8E2D-1E4B26D9531D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7318A16E-2B0A-4CD0-8E2D-1E4B26D9531D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7318A16E-2B0A-4CD0-8E2D-1E4B26D9531D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7318A16E-2B0A-4CD0-8E2D-1E4B26D9531D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {220B5492-C083-4BC3-BC65-F4D169A8F3C6}
+	EndGlobalSection
+EndGlobal

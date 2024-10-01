@@ -1,0 +1,7 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Average-scr-multiple-std\Average-scr-multiple-std\obj\Debug\Average-scr-multiple-std.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Average-scr-multiple-std\Average-scr-multiple-std\obj\Debug\Average-scr-multiple-std.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Average-scr-multiple-std\Average-scr-multiple-std\bin\Debug\Average-scr-multiple-std.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Average-scr-multiple-std\Average-scr-multiple-std\bin\Debug\Average-scr-multiple-std.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Average-scr-multiple-std\Average-scr-multiple-std\bin\Debug\Average-scr-multiple-std.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Average-scr-multiple-std\Average-scr-multiple-std\obj\Debug\Average-scr-multiple-std.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Average-scr-multiple-std\Average-scr-multiple-std\obj\Debug\Average-scr-multiple-std.pdb

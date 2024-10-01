@@ -1,0 +1,7 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Tableofnumber-prg\Tableofnumber-prg\bin\Debug\Tableofnumber-prg.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Tableofnumber-prg\Tableofnumber-prg\bin\Debug\Tableofnumber-prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Tableofnumber-prg\Tableofnumber-prg\bin\Debug\Tableofnumber-prg.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Tableofnumber-prg\Tableofnumber-prg\obj\Debug\Tableofnumber-prg.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Tableofnumber-prg\Tableofnumber-prg\obj\Debug\Tableofnumber-prg.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Tableofnumber-prg\Tableofnumber-prg\obj\Debug\Tableofnumber-prg.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Tableofnumber-prg\Tableofnumber-prg\obj\Debug\Tableofnumber-prg.pdb

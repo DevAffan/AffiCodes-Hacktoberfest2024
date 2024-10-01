@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      background-color: purple;
+      padding: 15px;
+    }
+
+    .p1 {
+      list-style-type: none;
+      position: relative;
+    }
+    .c1 {
+      display: inline;
+      padding: 10px 30px;
+    }
+    .p2 {
+      position: absolute;
+      background: red;
+      list-style-type: none;
+      font-size: larger;
+
+      margin-left: 29%;
+      margin-top: 2px;
+      width: 90px;
+      display: none;
+      /*padding: 20px;*/
+    }
+
+    .p2 .c2:hover {
+      background-color: orange;
+    }
+    .p1 .c1:hover .p2 {
+      display: block;
+    }
+    .p3 {
+      position: absolute;
+      background-color: cadetblue;
+      left: 100%;
+      margin-top: -20px;
+      list-style-type: none;
+      font-size: large;
+      width: 100px;
+      display: none;
+    }
+    .p3 .c3:hover {
+      background-color: orange;
+    }
+    .p2 .c2:hover .p3 {
+      display: block;
+    }
+
+    .p4 {
+      position: absolute;
+      background-color: cadetblue;
+      left: 100%;
+      margin-top: -20px;
+      list-style-type: none;
+      font-size: large;
+      width: 100px;
+      display: none;
+    }
+    .p4 .c4:hover {
+      background-color: rgb(158, 136, 96);
+    }
+    .p3 .c3:hover .p4 {
+      display: block;
+    }
+  </style>
+  <body style="background-color: coral">
+    <header>
+      <nav class="navigation">
+        <h1>Software Design</h1>
+        <ul class="p1">
+          <li class="c1">Services</li>
+          <li class="c1">
+            Services
+            <ul class="p2">
+              <li class="c2">WEB</li>
+              <li class="c2">JAVA</li>
+              <li class="c2">
+                PYTHON
+                <ul class="p3">
+                  <li class="c3">
+                    Advanced
+                    <ul class="p4">
+                      <li class="c4">Back-End Developer</li>
+                      <li class="c4">Back-End Developer</li>
+                      <li class="c4">Back-End Developer</li>
+                      <li class="c4">Back-End Developer</li>
+                    </ul>
+                  </li>
+                  <li class="c3">Advanced</li>
+                  <li class="c3">Advanced</li>
+                  <li class="c3">Advanced</li>
+                </ul>
+              </li>
+              <li class="c2">JS</li>
+            </ul>
+          </li>
+          <li class="c1">Services</li>
+          <li class="c1">Services</li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
+
+<!-- marquee tag / and iframe tag  -->

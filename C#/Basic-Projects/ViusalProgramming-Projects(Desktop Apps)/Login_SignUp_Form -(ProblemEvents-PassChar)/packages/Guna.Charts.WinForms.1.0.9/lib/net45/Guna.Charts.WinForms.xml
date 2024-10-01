@@ -1,0 +1,2264 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Guna.Charts.WinForms</name>
+    </assembly>
+    <members>
+        <member name="T:Guna.Charts.Interfaces.IChartElement">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.Licensing.Json.JsonReader">
+            <summary>Json text reader.</summary>
+            <remarks>Does not dispose the reader, since we don't own the underlying stream.</remarks>
+        </member>
+        <member name="F:Guna.Charts.Licensing.Json.JsonReader.DatetimeMinTimeTicks">
+            <summary> const tick value for caculating tick values</summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.Json.JsonReader.DateTimeFormat">
+            <summary>Compiled Regex for DateTime Format.</summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.Json.JsonReader.RecursionLimit">
+            <summary>Maximum recursion limit on reader.</summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.Json.JsonReader.reader">
+            <summary> Reader to reader text into </summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.Json.JsonReader.recursionDepth">
+            <summary>Depth of recursion.</summary>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.#ctor(System.IO.StreamReader)">
+            <summary>
+            Creates a new instance of Json reader which readers the json text 
+            from the given reader
+            </summary>
+            <param name="reader">text reader from which json payload needs to be read.
+            Does not dispose the reader, since we don't own the underlying stream.</param>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.ReadValue">
+            <summary>
+            Converts the given value into the right type
+            </summary>
+            <returns>returns the clr object instance which </returns>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.ReadNextCharacter">
+            <summary>
+            Gets the next character from the reader. This function moves the enumerator by 1 position
+            </summary>
+            <returns>the next charater from the current reader position</returns>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.PeekNextCharacter">
+            <summary>
+            peeks the next character from the reader. This does not move the current reader position.
+            </summary>
+            <returns>the next character from the current reader position</returns>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.GetCharacters(System.Int32)">
+            <summary>
+            Returns the next count characters from the reader's current position
+            </summary>
+            <param name="count">number of characters to return</param>
+            <returns>string consisting of next count characters</returns>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.PeekNextSignificantCharacter">
+            <summary>
+            Sets the readers position to the next significant character position
+            </summary>
+            <returns>returns the next significant character without changing the current position of the reader</returns>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.ReadArray">
+            <summary>
+            Converts the given text into an arrayList
+            </summary>
+            <returns>returns the arraylist containing the list of objects</returns>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.ReadBoolean">
+            <summary>
+            Reads the boolean value
+            </summary>
+            <returns>returns the boolean value as read from the reader</returns>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.ReadName(System.Boolean)">
+            <summary>
+            Reads the name string from the reader
+            </summary>
+            <param name="allowQuotes">true, if you want to allow quotes, otherwise false</param>
+            <returns>string name value</returns>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.ReadNull">
+            <summary>
+            Reads the null literal from the reader
+            </summary>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.ReadNumber">
+            <summary>Reads the number from the reader.</summary>
+            <returns>reads the clr number object</returns>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.ReadObject">
+            <summary>
+            Reads the object from the reader
+            </summary>
+            <returns>returns hashtable containing the list of property names and values</returns>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.ReadString">
+            <summary>
+            Read the string value from the reader
+            </summary>
+            <returns>returns the string value read from the reader</returns>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.ReadString(System.Boolean@)">
+            <summary>
+            Read the string value from the reader
+            </summary>
+            <param name="hasLeadingSlash">out parameter indicating whether the string has a leading slash or not</param>
+            <returns>returns the string value read from the reader</returns>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.RecurseEnter">
+            <summary>Marks the fact that a recursive method was entered, and checks that the depth is allowed.</summary>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.RecurseLeave">
+            <summary>Marks the fact that a recursive method is leaving..</summary>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.RecurseEnter(System.Int32,System.Int32@)">
+            <summary>Marks the fact that a recursive method was entered, and checks that the depth is allowed.</summary>
+            <param name="recursionLimit">Maximum recursion limit.</param>
+            <param name="recursionDepth">Depth of recursion.</param>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Json.JsonReader.RecurseLeave(System.Int32@)">
+            <summary>Marks the fact that a recursive method is leaving.</summary>
+            <param name="recursionDepth">Depth of recursion.</param>
+        </member>
+        <member name="P:Guna.Charts.Licensing.Utils.Network.IsAvailable">
+            <summary>
+            Indicates whether any network connection is available
+            Filter connections below a specified speed, as well as virtual network cards.
+            </summary>
+            <returns>
+                <c>true</c> if a network connection is available; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="F:Guna.Charts.Licensing.V6.Helper.ANIMATE_WINDOW_TYPE.AW_HOR_POSITIVE">
+            <summary>
+            Animates the window from left to right. This flag can be used with roll or slide animation.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.V6.Helper.ANIMATE_WINDOW_TYPE.AW_HOR_NEGATIVE">
+            <summary>
+            Animates the window from right to left. This flag can be used with roll or slide animation.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.V6.Helper.ANIMATE_WINDOW_TYPE.AW_VER_POSITIVE">
+            <summary>
+            Animates the window from top to bottom. This flag can be used with roll or slide animation.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.V6.Helper.ANIMATE_WINDOW_TYPE.AW_VER_NEGATIVE">
+            <summary>
+            Animates the window from bottom to top. This flag can be used with roll or slide animation.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.V6.Helper.ANIMATE_WINDOW_TYPE.AW_CENTER">
+            <summary>
+            Makes the window appear to collapse inward if AW_HIDE is used or expand outward if the AW_HIDE is not used.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.V6.Helper.ANIMATE_WINDOW_TYPE.AW_HIDE">
+            <summary>
+            Hides the window. By default, the window is shown.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.V6.Helper.ANIMATE_WINDOW_TYPE.AW_ACTIVATE">
+            <summary>
+            Activates the window.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.V6.Helper.ANIMATE_WINDOW_TYPE.AW_SLIDE">
+            <summary>
+            Uses slide animation. By default, roll animation is used.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.V6.Helper.ANIMATE_WINDOW_TYPE.AW_BLEND">
+            <summary>
+            Uses a fade effect. This flag can be used only if hwnd is a top-level window.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.V6.LicensingForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Guna.Charts.Licensing.V6.LicensingForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Guna.Charts.Licensing.V6.LicensingForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.V6.MessageDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Guna.Charts.Licensing.V6.MessageDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Guna.Charts.Licensing.V6.MessageDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Views.GTextBox.TextBoxPlaceholder.UpdatePlaceholder">
+            <summary>
+            https://stackoverflow.com/questions/4902565/watermark-textbox-in-winforms
+            https://github.com/r-aghaei/TextBoxWatermark
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.Licensing.Views.GTextBox.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Views.GTextBox.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Guna.Charts.Licensing.Views.GTextBox.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.ce_48px">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.CheckedCheckbox_20px">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.CheckedRadioButton_20px">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.core">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.curv3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.curv3_w">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.FullImage_64px">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.hourglass_512px">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.logo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.logo_w">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.m_h">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.UncheckedCheckbox_20px">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.Properties.Resources.UncheckedRadioButton_20px">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.Animation">
+            <summary>
+            Represents the animation settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Animation.Easing">
+            <summary>
+            Gets or sets the easing function to use for animation.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Animation.Duration">
+            <summary>
+            Gets or sets the duration of the animation in milliseconds.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.Axes">
+            <summary>
+            Represents the configuration for axes in a chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Axes.GridLines">
+            <summary>
+            Gets or sets the configuration for grid lines on the axis.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Axes.Display">
+            <summary>
+            Gets or sets a value indicating whether the axis is globally visible.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Axes.Ticks">
+            <summary>
+            Gets or sets the configuration for tick marks on the axis.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.BoundaryFillingMode">
+            <summary>
+            Provides various supported line-style fill options.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.BoundaryFillingMode.Origin">
+            <summary>
+            Fill from origin.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.BoundaryFillingMode.Start">
+            <summary>
+            Fill from start.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.BoundaryFillingMode.End">
+            <summary>
+            Fill from end.
+            </summary> 
+        </member>
+        <member name="T:Guna.Charts.WinForms.BubblePoint">
+            <summary>
+            Represents a point in a bubble chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.BubblePoint.X">
+            <summary>
+            Gets or sets the x-axis point.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.BubblePoint.Y">
+            <summary>
+            Gets or sets the y-axis point.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.BubblePoint.Radius">
+            <summary>
+            Gets or sets the radius.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.ChartConfig">
+            <summary>
+            Represents the general configuration settings for a chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.ChartConfig.Animation">
+            <summary>
+            Gets or sets the animation settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.ChartConfig.Legend">
+            <summary>
+            Gets or sets the legend settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.ChartConfig.Title">
+            <summary>
+            Gets or sets the title settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.ChartConfig.Tooltips">
+            <summary>
+            Gets or sets the tooltip settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.ChartConfig.Misc">
+            <summary>
+            Gets or sets the additional settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.ChartConfig.XAxes">
+            <summary>
+            Gets or sets the X-axis settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.ChartConfig.YAxes">
+            <summary>
+            Gets or sets the Y-axis settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.ChartConfig.ZAxes">
+            <summary>
+            Gets or sets the Z-axis settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.ChartConfig.PaletteCustomColors">
+            <summary>
+            Gets or sets the custom color palettes settings for the chart.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.ChartElement">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.ChartFont">
+            <summary>
+            Represents the font settings for chart elements.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.ChartFont.Size">
+            <summary>
+            Gets or sets the font size (in pixels) for text. Does not apply to radialLinear scale point labels.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.ChartFont.Style">
+            <summary>
+            Gets or sets the font style.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.ChartFont.Name">
+            <summary>
+            Gets or sets the font family for all text.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.ChartFontStyle">
+            <summary>
+            Represents different font styles for chart elements.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.ChartFontStyle.Normal">
+            <summary>
+            Normal font style.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.ChartFontStyle.Bold">
+            <summary>
+            Bold font style.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.ChartFontStyle.Italic">
+            <summary>
+            Italic font style.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.ChartFontStyle.Oblique">
+            <summary>
+            Oblique font style.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.ChartFontStyle.Initial">
+            <summary>
+            Initial font style.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.ChartFontStyle.Inherit">
+            <summary>
+            Inherit font style.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.ChartTextAlignment">
+            <summary>
+            Represents different text alignment options for chart elements.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.ChartTextAlignment.Start">
+            <summary>
+            Text alignment at the start of the element.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.ChartTextAlignment.Center">
+            <summary>
+            Text alignment at the center of the element.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.ChartTextAlignment.End">
+            <summary>
+            Text alignment at the end of the element.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.CubicInterpolationMode">
+            <summary>
+            Provides various supported cubic interpolation modes.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.CubicInterpolationMode.Default">
+            <summary>
+            The default interpolation mode.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.CubicInterpolationMode.Monotone">
+            <summary>
+            Monotone interpolation mode.
+            </summary> 
+        </member>
+        <member name="T:Guna.Charts.WinForms.DatasetBase">
+            <summary>
+            The base class for chart datasets.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.DatasetBase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Guna.Charts.WinForms.DatasetBase.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Guna.Charts.WinForms.DatasetBase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.DatasetBase.TargetChart">
+            <summary>
+            Gets or sets the chart that this dataset belongs to.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.DatasetBase.Label">
+            <summary>
+            Gets or sets the label for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.DatasetBase.LegendBoxFillColor">
+            <summary>
+            Gets or sets the background color of the legend box.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.DatasetBase.LegendBoxBorderColor">
+            <summary>
+            Gets or sets the border color of the legend box.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.GunaAreaDataset">
+            <summary>
+            Represents a dataset for the Guna Area chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.IndexLabel">
+            <summary>
+            Gets or sets the default index label for all data points. Format: {label}/{value}/{x}/{y}
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.IndexLabelForeColor">
+            <summary>
+            Gets or sets the color of the index label.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.FillColor">
+            <summary>
+            Gets or sets the fill color for the chart line.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.BorderColor">
+            <summary>
+            Gets or sets the border color for the chart line.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.BorderWidth">
+            <summary>
+            Gets or sets the width of the chart border.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.DataPoints">
+            <summary>
+            Gets or sets the data points for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.Fill">
+            <summary>
+            Gets or sets the boundary filling mode for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.PointFillColors">
+            <summary>
+            Gets or sets the background colors for the chart's points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.PointBorderColors">
+            <summary>
+            Gets or sets the border colors for the chart's points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.PointBorderWidth">
+            <summary>
+            Gets or sets the width of the border for the chart's points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.PointRadius">
+            <summary>
+            Gets or sets the radius for the chart's points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.PointRotation">
+            <summary>
+            Gets or sets the rotation angle in degrees for the chart's points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.PointStyle">
+            <summary>
+            Gets or sets the style for the chart's points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaAreaDataset.ShowLine">
+            <summary>
+            Gets or sets a value indicating whether the line chart will be displayed.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.GunaBarDataset">
+            <summary>
+            Represents a dataset for bar charts in the Guna Chart control.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBarDataset.AutoRoundedCorners">
+            <summary>
+            Gets or sets whether the corners of the bars are automatically rounded.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBarDataset.CornerRadius">
+            <summary>
+            Gets or sets the radius of the corner curves for the display of bar.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBarDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBarDataset.IndexLabel">
+            <summary>
+            Gets or sets the default index label for all the dataPoints. Example: {label}/{x}/{y}.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBarDataset.IndexLabelForeColor">
+            <summary>
+            Gets or sets the color of the chart's index label.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBarDataset.FillColors">
+            <summary>
+            Gets or sets the chart background color.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBarDataset.BorderColors">
+            <summary>
+            Gets or sets the chart border color.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBarDataset.BorderWidth">
+            <summary>
+            Gets or sets the chart border width.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBarDataset.DataPoints">
+            <summary>
+            Gets or sets the chart data.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBarDataset.BarPercentage">
+            <summary>
+            Gets or sets the percentage width on the bar.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.GunaBubbleDataset">
+            <summary>
+            Represents a dataset for bubble charts in the Guna Chart control.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBubbleDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBubbleDataset.XFormat">
+            <summary>
+            Gets or sets the format string used to format numeric X values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBubbleDataset.RadiusFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Radius values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBubbleDataset.FillColors">
+            <summary>
+            Gets or sets the background colors of the chart bubbles.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBubbleDataset.BorderColors">
+            <summary>
+            Gets or sets the border colors of the chart bubbles.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBubbleDataset.BorderWidth">
+            <summary>
+            Gets or sets the width of the border around the chart bubbles.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBubbleDataset.DataPoints">
+            <summary>
+            Gets or sets the data points for the chart bubbles.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBubbleDataset.PointStyle">
+            <summary>
+            Gets or sets the style of the cursor points in the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaBubbleDataset.Rotation">
+            <summary>
+            Gets or sets the rotation angle (in degrees) of the chart dataset.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaDoughnutDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaDoughnutDataset.FillColors">
+            <summary>
+            Gets or sets the background colors of the chart doughnut segments.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaDoughnutDataset.BorderColors">
+            <summary>
+            Gets or sets the border colors of the chart doughnut segments.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaDoughnutDataset.BorderWidth">
+            <summary>
+            Gets or sets the width of the border around the chart doughnut segments.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaDoughnutDataset.DataPoints">
+            <summary>
+            Gets or sets the data points for the chart doughnut segments.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaHorizontalBarDataset.AutoRoundedCorners">
+            <summary>
+            Gets or sets whether the corners of the bars are automatically rounded.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaHorizontalBarDataset.CornerRadius">
+            <summary>
+            Gets or sets the radius of the corner curves for the display of bar.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaHorizontalBarDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaHorizontalBarDataset.IndexLabel">
+            <summary>
+            Gets or sets the default index label for all the dataPoints. Example: {label}/{x}/{y}.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaHorizontalBarDataset.IndexLabelForeColor">
+            <summary>
+            Gets or sets the color of the chart's index label.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaHorizontalBarDataset.FillColors">
+            <summary>
+            Gets or sets the background colors of the chart horizontal bar segments.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaHorizontalBarDataset.BorderColors">
+            <summary>
+            Gets or sets the border colors of the chart horizontal bar segments.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaHorizontalBarDataset.BorderWidth">
+            <summary>
+            Gets or sets the width of the border around the chart horizontal bar segments.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaHorizontalBarDataset.DataPoints">
+            <summary>
+            Gets or sets the data points for the chart horizontal bar segments.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.GunaLineDataset">
+            <summary>
+            Represents a dataset for a line chart.
+            </summary> 
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaLineDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaLineDataset.IndexLabel">
+            <summary>
+            Gets or sets the default index label for all the dataPoints. Example: {label}/{x}/{y}.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaLineDataset.IndexLabelForeColor">
+            <summary>
+            Gets or sets the color of the chart's index label.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaLineDataset.ShowLine">
+            <summary>
+            Gets or sets whether the line chart will be displayed.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaLineDataset.FillColor">
+            <summary>
+            Gets or sets the fill color for the chart line.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaLineDataset.BorderColor">
+            <summary>
+            Gets or sets the border color for the chart line.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaLineDataset.BorderWidth">
+            <summary>
+            Gets or sets the width of the chart border.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaLineDataset.DataPoints">
+            <summary>
+            Gets or sets the data points for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaLineDataset.PointFillColors">
+            <summary>
+            Gets or sets the background colors for chart points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaLineDataset.PointBorderColors">
+            <summary>
+            Gets or sets the border colors for chart points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaLineDataset.PointBorderWidth">
+            <summary>
+            Gets or sets the border width for chart points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaLineDataset.PointRadius">
+            <summary>
+            Gets or sets the radius for chart points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaLineDataset.PointRotation">
+            <summary>
+            Gets or sets the rotation for chart points in degrees.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaLineDataset.PointStyle">
+            <summary>
+            Gets or sets the style for chart points.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.GunaPieDataset">
+            <summary>
+            Represents a dataset for a pie chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaPieDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaPieDataset.FillColors">
+            <summary>
+            Gets or sets the background colors for chart slices.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaPieDataset.BorderColors">
+            <summary>
+            Gets or sets the border colors for chart slices.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaPieDataset.BorderWidth">
+            <summary>
+            Gets or sets the width of the border for chart slices.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaPieDataset.DataPoints">
+            <summary>
+            Gets or sets the data points for the pie chart.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.GunaPolarAreaDataset">
+            <summary>
+            Represents a dataset for a polar area chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaPolarAreaDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaPolarAreaDataset.FillColors">
+            <summary>
+            Gets or sets the background colors for chart segments in the polar area chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaPolarAreaDataset.BorderColors">
+            <summary>
+            Gets or sets the border colors for chart segments in the polar area chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaPolarAreaDataset.BorderWidth">
+            <summary>
+            Gets or sets the width of the border for chart segments in the polar area chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaPolarAreaDataset.DataPoints">
+            <summary>
+            Gets or sets the data points for the polar area chart.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.GunaRadarDataset">
+            <summary>
+            Represents a dataset for a radar chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaRadarDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaRadarDataset.FillColor">
+            <summary>
+            Gets or sets the background color of the radar chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaRadarDataset.BorderColor">
+            <summary>
+            Gets or sets the border color of the radar chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaRadarDataset.BorderWidth">
+            <summary>
+            Gets or sets the border width of the radar chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaRadarDataset.DataPoints">
+            <summary>
+            Gets or sets the data points for the radar chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaRadarDataset.Fill">
+            <summary>
+            Gets or sets a value indicating whether the radar chart is filled.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaRadarDataset.PointFillColors">
+            <summary>
+            Gets or sets the background colors for chart points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaRadarDataset.PointBorderColors">
+            <summary>
+            Gets or sets the border colors for chart points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaRadarDataset.PointBorderWidth">
+            <summary>
+            Gets or sets the border width for chart points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaRadarDataset.PointRadius">
+            <summary>
+            Gets or sets the radius for chart points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaRadarDataset.PointRotation">
+            <summary>
+            Gets or sets the rotation for chart points in degrees.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaRadarDataset.PointStyle">
+            <summary>
+            Gets or sets the style for chart cursor points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaRadarDataset.ShowLine">
+            <summary>
+            Gets or sets a value indicating whether the line chart will be shown.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.GunaScatterDataset">
+            <summary>
+            Represents a dataset for a scatter chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaScatterDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaScatterDataset.XFormat">
+            <summary>
+            Gets or sets the format string used to format numeric X values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaScatterDataset.FillColor">
+            <summary>
+            Gets or sets the background color of the scatter chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaScatterDataset.BorderColor">
+            <summary>
+            Gets or sets the border color of the scatter chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaScatterDataset.DataPoints">
+            <summary>
+            Gets or sets the data points for the scatter chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaScatterDataset.PointFillColors">
+            <summary>
+            Gets or sets the background colors for chart points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaScatterDataset.PointBorderColors">
+            <summary>
+            Gets or sets the border colors for chart points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaScatterDataset.PointBorderWidth">
+            <summary>
+            Gets or sets the border width for chart points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaScatterDataset.PointRadius">
+            <summary>
+            Gets or sets the radius for chart points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaScatterDataset.PointRotation">
+            <summary>
+            Gets or sets the rotation for chart points in degrees.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaScatterDataset.PointStyle">
+            <summary>
+            Gets or sets the style for chart cursor points.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.GunaSplineAreaDataset">
+            <summary>
+            Represents a dataset for a spline area chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.IndexLabel">
+            <summary>
+            Gets or sets the default index label for all the dataPoints. Example: {label}/{x}/{y}.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.IndexLabelForeColor">
+            <summary>
+            Gets or sets the color of the chart's index label.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.ShowLine">
+            <summary>
+            Gets or sets a value indicating whether the line chart will be shown.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.FillColor">
+            <summary>
+            Gets or sets the fill color of the area under the line.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.BorderColor">
+            <summary>
+            Gets or sets the color of the border line.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.BorderWidth">
+            <summary>
+            Gets or sets the width of the border line.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.DataPoints">
+            <summary>
+            Gets or sets the collection of data points for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.Fill">
+            <summary>
+            Gets or sets the mode of filling the area under the line.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.PointFillColors">
+            <summary>
+            Gets or sets the background colors of the data points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.PointBorderColors">
+            <summary>
+            Gets or sets the border colors of the data points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.PointBorderWidth">
+            <summary>
+            Gets or sets the width of the border line for data points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.PointRadius">
+            <summary>
+            Gets or sets the radius of the data points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.PointRotation">
+            <summary>
+            Gets or sets the rotation angle of the data points in degrees.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineAreaDataset.PointStyle">
+            <summary>
+            Gets or sets the style of the cursor points.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.GunaSplineDataset">
+            <summary>
+            Represents a dataset for a spline chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineDataset.IndexLabel">
+            <summary>
+            Gets or sets the default index label for all the dataPoints. Example: {label}/{x}/{y}.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineDataset.IndexLabelForeColor">
+            <summary>
+            Gets or sets the color of the chart's index label.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineDataset.ShowLine">
+            <summary>
+            Gets or sets a value indicating whether the line chart will be shown.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineDataset.FillColor">
+            <summary>
+            Gets or sets the fill color of the area under the line.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineDataset.BorderColor">
+            <summary>
+            Gets or sets the color of the border line.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineDataset.BorderWidth">
+            <summary>
+            Gets or sets the width of the border line.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineDataset.DataPoints">
+            <summary>
+            Gets or sets the collection of data points for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineDataset.PointFillColors">
+            <summary>
+            Gets or sets the background colors of the data points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineDataset.PointBorderColors">
+            <summary>
+            Gets or sets the border colors of the data points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineDataset.PointBorderWidth">
+            <summary>
+            Gets or sets the width of the border line for data points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineDataset.PointRadius">
+            <summary>
+            Gets or sets the radius of the data points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineDataset.PointRotation">
+            <summary>
+            Gets or sets the rotation angle of the data points in degrees.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSplineDataset.PointStyle">
+            <summary>
+            Gets or sets the style of the cursor points.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.GunaStackedBarDataset">
+            <summary>
+            Represents a dataset for a stacked bar chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedBarDataset.AutoRoundedCorners">
+            <summary>
+            Gets or sets whether the corners of the bars are automatically rounded.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedBarDataset.CornerRadius">
+            <summary>
+            Gets or sets the radius of the corner curves for the display of bar.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedBarDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedBarDataset.IndexLabel">
+            <summary>
+            Gets or sets the default index label for all data points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedBarDataset.IndexLabelForeColor">
+            <summary>
+            Gets or sets the color of the index label.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedBarDataset.FillColors">
+            <summary>
+            Gets or sets the background colors of the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedBarDataset.BorderColors">
+            <summary>
+            Gets or sets the border colors of the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedBarDataset.BorderWidth">
+            <summary>
+            Gets or sets the width of the chart's border.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedBarDataset.DataPoints">
+            <summary>
+            Gets or sets the collection of data points for the chart.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.GunaStackedHorizontalBarDataset">
+            <summary>
+            Represents a dataset for a stacked horizonral bar chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedHorizontalBarDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedHorizontalBarDataset.IndexLabel">
+            <summary>
+            Gets or sets the default index label for all data points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedHorizontalBarDataset.IndexLabelForeColor">
+            <summary>
+            Gets or sets the color of the index label.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedHorizontalBarDataset.FillColors">
+            <summary>
+            Gets or sets the background colors of the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedHorizontalBarDataset.BorderColors">
+            <summary>
+            Gets or sets the border colors of the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedHorizontalBarDataset.BorderWidth">
+            <summary>
+            Gets or sets the width of the chart's border.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaStackedHorizontalBarDataset.DataPoints">
+            <summary>
+            Gets or sets the collection of data points for the chart.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.GunaSteppedAreaDataset">
+            <summary>
+            Represents a dataset for a stepped area chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.IndexLabel">
+            <summary>
+            Gets or sets the default index label for all data points. Example: {label}/{x}/{y}
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.IndexLabelForeColor">
+            <summary>
+            Gets or sets the color of the index label.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.ShowLine">
+            <summary>
+            Gets or sets a value indicating whether the line chart will be shown.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.FillColor">
+            <summary>
+            Gets or sets the line fill color.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.BorderColor">
+            <summary>
+            Gets or sets the line border color.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.BorderWidth">
+            <summary>
+            Gets or sets the chart border width.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.DataPoints">
+            <summary>
+            Gets or sets the chart data.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.Fill">
+            <summary>
+            Gets or sets the boundary filling mode.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.PointFillColors">
+            <summary>
+            Sets the point background color.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.PointBorderColors">
+            <summary>
+            Sets the point border color.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.PointBorderWidth">
+            <summary>
+            Sets the chart point border width.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.PointRadius">
+            <summary>
+            Sets the chart point radius.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.PointRotation">
+            <summary>
+            Sets the chart point rotation in degrees.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.PointStyle">
+            <summary>
+            Sets the chart cursor point style.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedAreaDataset.Step">
+            <summary>
+            Sets the step mode.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.GunaSteppedLineDataset">
+            <summary>
+            Represents a dataset for a stepped line chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.YFormat">
+            <summary>
+            Gets or sets the format string used to format numeric Y values for display.
+            Refer to the official Microsoft documentation on standard numeric format strings: 
+            <see href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings"/>
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.IndexLabel">
+            <summary>
+            Gets or sets the default index label for all data points. Example: {label}/{x}/{y}
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.IndexLabelForeColor">
+            <summary>
+            Gets or sets the color of the index label.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.ShowLine">
+            <summary>
+            Gets or sets a value indicating whether the line chart will be shown.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.FillColor">
+            <summary>
+            Gets or sets the line fill color.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.BorderColor">
+            <summary>
+            Gets or sets the line border color.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.BorderWidth">
+            <summary>
+            Gets or sets the chart border width.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.DataPoints">
+            <summary>
+            Gets or sets the chart data.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.PointFillColors">
+            <summary>
+            Sets the point background color.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.PointBorderColors">
+            <summary>
+            Sets the point border color.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.PointBorderWidth">
+            <summary>
+            Sets the chart point border width.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.PointRadius">
+            <summary>
+            Sets the chart point radius.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.PointRotation">
+            <summary>
+            Sets the chart point rotation in degrees.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.PointStyle">
+            <summary>
+            Sets the chart cursor point style.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaSteppedLineDataset.Step">
+            <summary>
+            Sets the step mode.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Guna.Charts.WinForms.Design.ChartPropertyEditor.EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)" -->
+        <!-- Badly formed XML comment ignored for member "M:Guna.Charts.WinForms.Design.ChartPropertyEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)" -->
+        <member name="T:Guna.Charts.WinForms.Easing">
+            <summary>
+            Provides a list of supported chart animations.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.Linear">
+            <summary>
+            Linear animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInQuad">
+            <summary>
+            Ease-in Quad animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseOutQuad">
+            <summary>
+            Ease-out Quad animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInOutQuad">
+            <summary>
+            Ease-in/out Quad animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInCubic">
+            <summary>
+            Ease-in Cubic animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseOutCubic">
+            <summary>
+            Ease-out Cubic animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInOutCubic">
+            <summary>
+            Ease-in/out Cubic animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInQuart">
+            <summary>
+            Ease-in Quart animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseOutQuart">
+            <summary>
+            Ease-out Quart animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInOutQuart">
+            <summary>
+            Ease-in/out Quart animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInQuint">
+            <summary>
+            Ease0in Quint animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseOutQuint">
+            <summary>
+            Ease-out Quint animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInOutQuint">
+            <summary>
+            Ease-in/out Quint animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInSine">
+            <summary>
+            Ease-in Sine animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseOutSine">
+            <summary>
+            Ease-out Sine animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInOutSine">
+            <summary>
+            Ease-in/out Sine animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInExpo">
+            <summary>
+            Ease-in Expo animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseOutExpo">
+            <summary>
+            Ease-out Expo animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInOutExpo">
+            <summary>
+            Ease-in/out Expo animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInCirc">
+            <summary>
+            Ease-in Circular animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseOutCirc">
+            <summary>
+            Ease-out Circular animation.
+            </summary>  
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInOutCirc">
+            <summary>
+            Ease-in/out Circular animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInElastic">
+            <summary>
+            Ease-in Elastic animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseOutElastic">
+            <summary>
+            Ease-out Circular animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInOutElastic">
+            <summary>
+            Ease-in/out Elastic animation.
+            </summary>  
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInBack">
+            <summary>
+            Ease-in Back animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseOutBack">
+            <summary>
+            Ease-out Back animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInOutBack">
+            <summary>
+            Ease-in/out Back animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInBounce">
+            <summary>
+            Ease-in Bounce animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseOutBounce">
+            <summary>
+            Ease-out Bounce animation.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.Easing.EaseInOutBounce">
+            <summary>
+            Ease-in/out Bounce animation.
+            </summary> 
+        </member>
+        <member name="T:Guna.Charts.WinForms.Grid">
+            <summary>
+            Provides properties to control the appearance of grid lines in a chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Grid.Display">
+            <summary>
+            Gets or sets a value indicating whether grid lines are shown.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Grid.Color">
+            <summary>
+            Gets or sets the color of the grid lines.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Grid.LineWidth">
+            <summary>
+            Gets or sets the width of the grid lines.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Grid.DrawTicks">
+            <summary>
+            Gets or sets a value indicating whether tick marks are drawn on the grid lines.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Grid.TickMarkLength">
+            <summary>
+            Gets or sets the length of the tick marks on the grid lines.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Grid.ZeroLineWidth">
+            <summary>
+            Gets or sets the width of the zero grid line.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Grid.ZeroLineColor">
+            <summary>
+            Gets or sets the color of the zero grid line.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.GunaChart.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Guna.Charts.WinForms.GunaChart.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Guna.Charts.WinForms.GunaChart.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaChart.PaletteCustomColors">
+            <summary>
+            Gets or sets the custom color palettes settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaChart.Legend">
+            <summary>
+            Gets or sets the legend settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaChart.Title">
+            <summary>
+            Gets or sets the title settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaChart.XAxes">
+            <summary>
+            Gets or sets the X-axis settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaChart.YAxes">
+            <summary>
+            Gets or sets the Y-axis settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaChart.ZAxes">
+            <summary>
+            Gets or sets the Z-axis settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaChart.Tooltips">
+            <summary>
+            Gets or sets the tooltip settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaChart.Animation">
+            <summary>
+            Gets or sets the animation settings for the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaChart.Datasets">
+            <summary>
+            Access the collection of datasets associated with this component.
+            Use the "Add" method to populate this collection with datasets.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.GunaChart.Zoom">
+            <summary>
+            Gets or sets the zoom mode of the chart.
+            </summary>
+        </member>
+        <member name="M:Guna.Charts.WinForms.GunaChart.ToImage">
+            <summary>
+            Converts the chartViewer with all the charts rendered to an <see cref="T:System.Drawing.Image" />.
+            </summary>
+            <returns></returns> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.GunaCharts_LicenseMgr.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Guna.Charts.WinForms.GunaCharts_LicenseMgr.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Guna.Charts.WinForms.GunaCharts_LicenseMgr.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.Legend">
+            <summary>
+            Provides properties to control the appearance and position of the legend in a chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Legend.Display">
+            <summary>
+            Gets or sets a value indicating whether the legend is shown.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Legend.Position">
+            <summary>
+            Gets or sets the position of the legend.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Legend.Align">
+            <summary>
+            Gets or sets the alignment of the legend.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Legend.RightToLeft">
+            <summary>
+            Gets or sets a value indicating whether the legend is rendered from right to left.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Legend.FullWidth">
+            <summary>
+            Gets or sets a value indicating whether the legend box takes the full width/height of the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Legend.BoxWidth">
+            <summary>
+            Gets or sets the width of the colored box in the legend.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Legend.LabelFont">
+            <summary>
+            Gets or sets the font style for legend labels.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Legend.LabelForeColor">
+            <summary>
+            Gets or sets the foreground color for legend labels.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.LegendPosition">
+            <summary>
+            Represents the available positions for the legend in a chart.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.LegendPosition.Top">
+            <summary>
+            The legend is positioned at the top of the chart.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.LegendPosition.Left">
+            <summary>
+            The legend is positioned at the left side of the chart.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.LegendPosition.Bottom">
+            <summary>
+            The legend is positioned at the bottom of the chart.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.LegendPosition.Right">
+            <summary>
+            The legend is positioned at the right side of the chart.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.LegendPosition.ChartArea">
+            <summary>
+            The legend is positioned within the chart area.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.LPoint.Label">
+            <summary>
+            Gets or sets the label point.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.LPoint.Y">
+            <summary>
+            Gets or sets the y-axis point.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.Misc">
+            <summary>
+            Provides additional properties to control various features in the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Misc.BarCornerRadius">
+            <summary>
+            Gets or sets the corner radius for the appearance of data points in bar charts.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.Palettes">
+            <summary>
+            Represents a collection of color palettes used for filling and bordering data points in a chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Palettes.FillColors">
+            <summary>
+            Gets or sets the collection of colors used for filling data points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Palettes.BorderColors">
+            <summary>
+            Gets or sets the collection of colors used for bordering data points.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Palettes.PointFillColors">
+            <summary>
+            Gets or sets the collection of colors used for filling data point markers.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Palettes.PointBorderColors">
+            <summary>
+            Gets or sets the collection of colors used for bordering data point markers.
+            </summary>
+        </member>
+        <member name="M:Guna.Charts.WinForms.Palettes.Reset">
+            <summary>
+            Resets the color palettes to their default values.
+            </summary>
+        </member>
+        <member name="M:Guna.Charts.WinForms.Palettes.Clear">
+            <summary>
+            Clears all colors from the color palettes.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.PointLabel">
+            <summary>
+            Provides properties to control the style of point labels in a chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.PointLabel.Display">
+            <summary>
+            Gets or sets a value indicating whether point labels are shown.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.PointLabel.Font">
+            <summary>
+            Gets or sets the font style for point labels.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.PointLabel.ForeColor">
+            <summary>
+            Gets or sets the foreground color for point labels.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.PointStyle">
+            <summary>
+            Represents the available styles for points in a chart.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.PointStyle.Circle">
+            <summary>
+            Circular point.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.PointStyle.Cross">
+            <summary>
+            Cross-haired point.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.PointStyle.CrossRot">
+            <summary>
+            Cross-rot point.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.PointStyle.Dash">
+            <summary>
+            Dashed point.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.PointStyle.Line">
+            <summary>
+            Line point.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.PointStyle.Rect">
+            <summary>
+            Rectangular point.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.PointStyle.RectRounded">
+            <summary>
+            Rounded rectangular point.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.PointStyle.RectRot">
+            <summary>
+            Rectangular-rot point.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.PointStyle.Star">
+            <summary>
+            Star point.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.PointStyle.Triangle">
+            <summary>
+            Triangular point.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.RadialAxes">
+            <summary>
+            Represents the configuration for axes in a chart, providing properties to control appearance and behavior.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.RadialAxes.PointLabels">
+            <summary>
+            Gets or sets the configuration for point labels.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.RadialAxes.GridLines">
+            <summary>
+            Gets or sets the configuration for grid lines.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.RadialAxes.Display">
+            <summary>
+            Gets or sets a value indicating whether the axis is globally visible (visible when true, hidden when false).
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.RadialAxes.Ticks">
+            <summary>
+            Gets or sets the configuration for ticks on the axis.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.ScatterPoint.X">
+            <summary>
+            Gets or sets the x-axis point.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.ScatterPoint.Y">
+            <summary>
+            Gets or sets the y-axis point.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.StepMode">
+            <summary>
+            Provides the supported stepped line options.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.StepMode.Before">
+            <summary>
+            Line to be displayed before.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.StepMode.Middle">
+            <summary>
+            Line to be displayed in the middle.
+            </summary> 
+        </member>
+        <member name="F:Guna.Charts.WinForms.StepMode.After">
+            <summary>
+            Line to be displayed after.
+            </summary> 
+        </member>
+        <member name="T:Guna.Charts.WinForms.Tick">
+            <summary>
+            Represents the tick configuration for a chart, providing properties to control its appearance and behavior.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tick.Display">
+            <summary>
+            Gets or sets a value indicating whether the ticks are displayed.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tick.Font">
+            <summary>
+            Gets or sets the font for the ticks.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tick.ForeColor">
+            <summary>
+            Gets or sets the foreground color for the ticks.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tick.HasMaximum">
+            <summary>
+            Gets or sets whether a maximum value is specified for the tick scale.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tick.HasMinimum">
+            <summary>
+            Gets or sets whether a minimum value is specified for the tick scale.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tick.Minimum">
+            <summary>
+            Gets or sets the user-defined minimum number for the tick scale, overriding the minimum value from data.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tick.Maximum">
+            <summary>
+            Gets or sets the user-defined maximum number for the tick scale, overriding the maximum value from data.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tick.BeginAtZero">
+            <summary>
+            Gets or sets whether the scale will include 0 if it is not already included.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.Title">
+            <summary>
+            Represents a title configuration for a chart, providing properties to control its appearance.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Title.Display">
+            <summary>
+            Gets or sets a value indicating whether the title is displayed.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Guna.Charts.WinForms.Title.Text" -->
+        <member name="P:Guna.Charts.WinForms.Title.FullWidth">
+            <summary>
+            Gets or sets whether this title box should take the full width/height of the canvas. If 'false', the box is sized and placed above/beside the chart area.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Title.Position">
+            <summary>
+            Gets or sets the position of the title.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Title.Font">
+            <summary>
+            Gets or sets the font for the title.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Title.ForeColor">
+            <summary>
+            Gets or sets the foreground color for the title.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.TitlePosition">
+            <summary>
+            Represents the possible positions for the title of a chart.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.TitlePosition.Top">
+            <summary>
+            The title is positioned at the top of the chart.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.TitlePosition.Left">
+            <summary>
+            The title is positioned to the left of the chart.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.TitlePosition.Bottom">
+            <summary>
+            The title is positioned at the bottom of the chart.
+            </summary>
+        </member>
+        <member name="F:Guna.Charts.WinForms.TitlePosition.Right">
+            <summary>
+            The title is positioned to the right of the chart.
+            </summary>
+        </member>
+        <member name="T:Guna.Charts.WinForms.Tooltip">
+            <summary>
+            Represents a tooltip configuration for a chart, providing properties to control its appearance.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tooltip.Enabled">
+            <summary>
+            Gets or sets a value indicating whether tooltips are enabled on the chart.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tooltip.CornerRadius">
+            <summary>
+            Gets or sets the radius of the corner curves of the tooltip.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tooltip.BackgroundColor">
+            <summary>
+            Gets or sets the background color of the tooltip.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tooltip.DisplayColors">
+            <summary>
+            Gets or sets whether color boxes are shown in the tooltip.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tooltip.BorderColor">
+            <summary>
+            Gets or sets the color of the tooltip border.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tooltip.BorderWidth">
+            <summary>
+            Gets or sets the width of the tooltip border.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tooltip.TitleFont">
+            <summary>
+            Gets or sets the font for the tooltip title.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tooltip.TitleForeColor">
+            <summary>
+            Gets or sets the foreground color for the tooltip title.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tooltip.BodyFont">
+            <summary>
+            Gets or sets the font for the tooltip body text.
+            </summary>
+        </member>
+        <member name="P:Guna.Charts.WinForms.Tooltip.BodyForeColor">
+            <summary>
+            Gets or sets the foreground color for the tooltip body text.
+            </summary>
+        </member>
+    </members>
+</doc>

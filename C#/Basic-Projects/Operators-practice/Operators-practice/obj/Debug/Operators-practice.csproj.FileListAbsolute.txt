@@ -1,0 +1,7 @@
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Operators-practice\Operators-practice\bin\Debug\Operators-practice.exe.config
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Operators-practice\Operators-practice\bin\Debug\Operators-practice.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Operators-practice\Operators-practice\bin\Debug\Operators-practice.pdb
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Operators-practice\Operators-practice\obj\Debug\Operators-practice.csproj.AssemblyReference.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Operators-practice\Operators-practice\obj\Debug\Operators-practice.csproj.CoreCompileInputs.cache
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Operators-practice\Operators-practice\obj\Debug\Operators-practice.exe
+C:\Users\syedm\OneDrive\Desktop\VP-Program-Practice\Operators-practice\Operators-practice\obj\Debug\Operators-practice.pdb
