@@ -1,0 +1,3 @@
+add shimmer effctr until the data is fetched through the api 
+
+and do alert the user if he entred the country name wrong 

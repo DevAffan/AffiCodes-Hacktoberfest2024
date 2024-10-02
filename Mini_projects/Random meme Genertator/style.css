@@ -1,0 +1,43 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.App{
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+.App img{
+height: 430px;
+object-fit: cover;
+}
+
+
+.App .App-btn{
+    padding: 9px 20px ;
+    border: none;
+    border-left: 3px solid #222 ;
+    border-right: 4px solid #222;
+    color:#f64d4d ;
+    background: #fff;
+    margin: 28px;
+    cursor: pointer;
+    transition: all 400ms ease-in;
+}
+
+
+.App .App-btn:hover{
+    padding: 8px 36px ;
+    border-left: 3px solid #222 ;
+    border-right: 4px solid #222;
+    letter-spacing: 3.4px;
+   
+
+}
+
+
+.App .meme-author{
+    margin: 8px;
+}

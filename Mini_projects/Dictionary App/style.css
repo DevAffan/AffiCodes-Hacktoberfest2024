@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anek Odia', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background:rgb(47, 179, 255);
+
+}
+.container{
+    background-color: rgb(216, 211, 212);
+    width: 80vw;
+    max-width: 37.5em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 1em 1.2em ;
+    border-radius: 8px;
+}
+
+.search-word{
+    display: grid;
+    grid-template-columns: 9fr 2fr;
+    grid-gap: 1.2em;
+}
+
+#submit-btn {
+    font-size: 1rem;
+    background-color: rgb(255, 0, 98);
+    outline: none;
+    text-align: center;
+    border: none;
+    padding: 0.7rem ;
+    border-radius: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 1s;
+}
+#submit-btn:hover{
+color: black;
+background-color: white;
+}
+
+.search-word input{
+    border: none;
+    outline:none;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    border-bottom: 1px solid orangered;
+}
+
+.result{
+    position: relative;
+}
+
+.result h2{
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.671);
+    text-transform: capitalize;
+}
+
+.result .word{
+    display: flex;
+    justify-content: space-between;
+
+}
+.result button{
+    background-color: transparent;
+    border: none; 
+    outline: none;
+    font-size: 18px;
+}
+
+.result .details{
+    display: flex;
+    gap:10px;
+    color: #4b57e2;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+
+.word-meaning{
+    color: #2935b6;
+
+}
+.word-example{
+    color: #0e0f14;
+    font-style: italic;
+    border-left: 5px solid black;
+    padding-left: 20px ;
+    margin-top: 30px;
+    
+}

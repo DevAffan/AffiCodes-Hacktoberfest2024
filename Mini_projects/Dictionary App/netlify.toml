@@ -1,0 +1,4 @@
+[[_redirects]]
+from ="/*"
+to ="/index.htm"
+status=200

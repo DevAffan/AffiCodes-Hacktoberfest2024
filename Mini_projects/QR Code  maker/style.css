@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Odia', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #7D7C7C;
+}
+.box{
+    /* border: 8px solid white; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  transform: translate(-50%, -50%);
+    height: 400px;
+    width: 400px;
+    background-color: #CCC8AA;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 7px;
+}
+.box2{
+    /* border: 2px solid red; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.box2 > h1{
+    /* border: 2px solid hotpink; */
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+
+.box2 > input{
+    width: 80%;
+    padding: 10px;
+    margin-top: 12px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+    outline: none;
+    border: none;
+}
+
+  /* Style for when the input is focused */
+  .box2:focus {
+    border-color: #007bff; /* Change the border color on focus */
+    outline: none; /* Remove the default focus outline */
+}
+
+/* Style for placeholder text */
+.box2::placeholder {
+    color: #999;
+}
+
+.box2 > button{
+display: block;
+width: 80%;
+padding: 10px;
+margin: 12px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+text-transform: capitalize;
+}
+
+.box2 > button:hover{
+    background-color: #0056b3;
+}
+
+#imageShown{
+    width: 200px;
+    border-radius: 5px ;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+
+}
+
+#imageShown img{
+    width: 100%;
+    padding: 10%;
+}
+
+#imageShown.show-img{
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid #d1d1d1;
+}
+
+/* Add your existing CSS code above */
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    .box {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .box2 > input {
+        width: 90%;
+    }
+
+    .box2 > button {
+        width: 90%;
+    }
+
+    #imageShown {
+        width: 90%;
+    }
+}
