@@ -1,0 +1,55 @@
+import java.util.*;
+
+public class BoyerMoore {
+    private final int R; // Radix
+    private int[] right; // the bad-character skip array
+    private String pattern; // Pattern to search
+    
+    public BoyerMoore(String pattern) {
+        this.R = 256; // number of possible characters (ASCII)
+        this.pattern = pattern;
+        
+        // Initialize the bad-character array
+        right = new int[R];
+        Arrays.fill(right, -1); // initialize all occurrences to -1
+
+        // Populate the bad-character array
+        for (int j = 0; j < pattern.length(); j++) {
+            right[pattern.charAt(j)] = j; // rightmost position of character in pattern
+        }
+    }
+
+    public int search(String text) {
+        int M = pattern.length();
+        int N = text.length();
+        int skip;
+
+        for (int i = 0; i <= N - M; i += skip) {
+            skip = 0;
+            // Check the pattern against the text from right to left
+            for (int j = M - 1; j >= 0; j--) {
+                if (pattern.charAt(j) != text.charAt(i + j)) {
+                    skip = Math.max(1, j - right[text.charAt(i + j)]);
+                    break;
+                }
+            }
+            // If skip is still 0, we found a match
+            if (skip == 0) return i;
+        }
+        return N; // No match found
+    }
+
+    public static void main(String[] args) {
+        String text = "HERE IS A SIMPLE EXAMPLE";
+        String pattern = "EXAMPLE";
+        
+        BoyerMoore bm = new BoyerMoore(pattern);
+        int result = bm.search(text);
+        
+        if (result < text.length()) {
+            System.out.println("Pattern found at index: " + result);
+        } else {
+            System.out.println("Pattern not found");
+        }
+    }
+}
