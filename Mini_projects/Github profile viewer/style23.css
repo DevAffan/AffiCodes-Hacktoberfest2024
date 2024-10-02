@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #333333;
+    
+}
+.main-content{
+    border: 2px solid black ;
+    height:fit-content;
+    width: 500px;
+
+   position: absolute;
+   top: 10%;
+   margin: auto;
+    padding: 10px;
+    background-color: #CBD18F;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 12px;
+ 
+    
+}
+.main-content > h1{
+    /* border: 2px solid gold; */
+    text-align: center;
+    font-weight: 400;
+}
+.searchBar {
+/* border: 2px solid green; */
+/* margin: auto; */
+margin: 2% auto;
+width: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+background:  #3A6B35;
+border-radius: 30px;
+padding: 10px; /* Add some padding to the container */
+}
+.searchBar > input {
+    outline: none;
+    border: none;
+    flex-grow: 1;
+    padding: 10px;
+    background: transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #333; /* Text color */
+/* border-bottom: 1px solid black; */
+}
+::placeholder{
+ padding-left: 5px;
+ background: #3A6B35;
+ font-weight: bold;
+ color: white;
+ opacity: 0.7;
+ 
+}
+
+.searchBar > button {
+    /* border: 2px solid white; */
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px; /* Add some spacing between the input and button */
+    color: #333; /* Text color */
+}
+.card{
+    /* border: 2px solid red; */
+    height:fit-content;
+    width:400px ;
+    margin: auto;
+}
+
+
+.card-main{
+    /* border: 2px solid black ; */
+}
+
+.image{
+    /* border: 2px solid blue; */
+    padding-left: 30%;
+}
+
+.image > img{
+   /* border: 2px solid hotpink; */
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}
+.info{
+    /* border: 2px solid yellow; */
+}
+.name > span , .userName > span{
+    text-align: center;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.name , .userName{
+    /* border: 2px solid aqua; */
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-left:1px; 
+}
+
+.newBox {
+    /* display: grid; */
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+    gap: 10px; /* Add some spacing between grid items */
+    text-align: center; /* Center-align the text within the grid items */
+  }
+  
+  .grid-cont {
+    /* border: 1px solid #ccc;// Add a border for visibility */
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+.followers > span , .following > span {
+    font-weight: 800;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border: 2px solid red; */
+    margin: 2px;
+}
+.followers , .following{
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-left:1px; 
+    margin: 2px;
+}
+.total_Repo > span{
+    text-transform: capitalize;
+    font-weight: 800;
+    margin: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+.total_Repo{
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-left:1px; 
+}
+
+.link > span{
+    font-weight: 800;
+    margin: 2px;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.link{
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-left:1px;  
+}
+  

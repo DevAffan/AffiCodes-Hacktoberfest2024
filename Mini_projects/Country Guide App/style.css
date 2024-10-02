@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anek Odia', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+
+}
+.container{
+    background-color: white;
+    width: 80vw;
+    max-width: 37.5em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 1em 1.2em ;
+    border-radius: 8px;
+}
+
+.search-text{
+    display: grid;
+    grid-template-columns: 9fr 2fr;
+    grid-gap: 1.2em;
+}
+
+#Submit-btn{
+    font-size: 1rem;
+    background-color: yellow;
+    outline: none;
+    border: none;
+    padding: 0.7rem ;
+    border-radius: 8px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.search-text input{
+    border: none;
+    outline:none;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    border-bottom: 1px solid orangered;
+}
+
+#result{
+    /* border: 2px solid red; */
+    margin: 1.2rem 0 ;
+}
+
+.container .flag-image{
+display: block;
+width: 45%;
+min-width:7.5rem;
+margin: 1.2rem auto 1.2rem auto ;
+}
+
+.container h2{
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#wrapper{
+    /* border: 2px solid rebeccapurple; */
+}
+#data-wrapper{
+    /* border: 2px solid darkgoldenrod; */
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.3px;
+}
+.container h4{
+    display: inline;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #050607;
+}
+.containe span{
+    font-weight: 400;
+    color: #5d625d;
+}
