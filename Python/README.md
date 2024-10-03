@@ -89,6 +89,10 @@
       <td>tower_of_hanoi.py</td>
       <td>Solve the Tower of Hanoi problem.</td>
     </tr>
+    <tr>
+	    <td>weather_forecast.py</td>
+	    <td>Simple Weather Forecast using weatherapi</td>
+    </tr>
   </tbody>
 </table>
 
