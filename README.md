@@ -1,3 +1,6 @@
+### ⚠️ Repository Status: No Longer Accepting Contributions
+
+Please note that this repository is no longer accepting any pull requests or code contributions.
 
 
 # AffiCodes - Hacktoberfest 2024!
