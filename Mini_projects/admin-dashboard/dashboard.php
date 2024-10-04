@@ -29,15 +29,15 @@
 
             <div class="content">
                 <h1>Overview</h1>
-                <p>This is where the dashboard content goes.</p>
+                <p>Dashboard Content.</p>
                 
                 <div class="dashboard-cards">
                     <div class="card">
-                        <h3>Users</h3>
+                        <h3>Users count</h3>
                         <p>1,245</p>
                     </div>
                     <div class="card">
-                        <h3>Sales</h3>
+                        <h3>Sales last month</h3>
                         <p>$2,340</p>
                     </div>
                     <div class="card">

@@ -6,9 +6,9 @@
 </head>
 <body>
   <div class="navbar">
-    <a href="index.php">Dashboard</a>
-    <a href="about.php">Users Count</a>
-    <a href="services.php">About</a>
+    <a href="dashboard.php">Dashboard</a>
+    <a href="users.php">Users Count</a>
+    <a href="about.php">About</a>
     <a href="contact.php">Contact</a>
   </div>
 </body>
