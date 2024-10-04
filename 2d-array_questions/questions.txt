@@ -1,0 +1,92 @@
+2d array questions
+
+1. creating a 2d array   
+    example  m=2 and n=3
+            2 3 
+            1 2 3 4 5 6
+            1 2 3 
+            4 5 6
+2. linear search in 2d array 
+    example Enter the number of rows and columns: 2 3
+            Enter the elements of the matrix:
+            1 2 3 4 5 6 
+            The matrix is:
+            1 2 3 
+            4 5 6 
+            Element to be searched-> 8
+            Element not present
+3.rowwise sum 
+    example Enter the number of rows and columns: 2 3 
+            Enter the elements of the matrix:
+            1 2 3 4 5 6 
+            The matrix is :
+            1 2 3 
+            4 5 6       
+            6(sum of row 1 is 6)
+            15(sum of row 2 is 15)    
+4.largest row sum
+  example Enter the number of rows and columns: 2 3 
+            Enter the elements of the matrix:
+            1 2 3 4 5 6 
+            The matrix is :
+            1 2 3 
+            4 5 6       
+            6(sum of row 1 is 6)
+            15(sum of row 2 is 15)     
+            
+            here 15 is largest row sum at row index=2
+5.print like a wave 
+  example  Elements of matrix is :
+           {1, 2, 3},
+           {4, 5, 6},
+           {7, 8, 9}
+           Output is :
+           1 4 7 8 5 2 3 6 9
+
+           (HINT: for the odd rows we can go from bottom to top so column %2==1 for  traverse from n-1 to 0 &
+                  for odd rows we can go from top to bottom so column%2==0 so traverse from 0 to n-1)
+         
+6.spiral matrix 
+  example Elements of matrix is :
+          {1, 2, 3, 4},
+          {5, 6, 7, 8},
+          {9, 10, 11, 12},
+          {13, 14, 15, 16}
+          Output is :
+          Elements in spiral order are: 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10 
+
+          (HINT:  declare 4 variables for easyiness of loops
+          top = 0, left = 0, right = col - 1, bottom = row - 1  and traverse acordingly )
+
+7.rotate matrix by 90 degree 
+  example Matrix before rotation:
+          1 2 3
+          4 5 6
+          7 8 9
+
+          Matrix after rotation:
+          7 4 1
+          8 5 2
+          9 6 3
+
+          (HINT: step 1. swap the rows values with column values and vice versa
+                 step2.reverse every row to get the result
+          )
+8.rows with maximum one'search
+  example 
+         {0, 1, 1},
+         {1, 1, 1},
+         {0, 0, 0}
+         Row with maximum 1s: 1
+         Number of 1s in that row: 3          
+9.Binary search in 2d array 
+  ( HINT step 1. think it like a 1d array
+         step 2.row can be find by mid/col and column can be found by mid%col ) 
+          step3. apply normal binary search         
+
+10.search in 2d matrix 
+   example {1, 4, 7, 11},
+           {8, 9, 10, 20},
+           {11, 12, 17, 30}
+           target = 10;
+           true          
